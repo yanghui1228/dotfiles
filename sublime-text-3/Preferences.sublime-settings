@@ -1,0 +1,13 @@
+{
+	"font_face": "YaHei Consolas Hybrid",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
+	],
+	"theme": "Default.sublime-theme"
+}

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+def function():
+    """
+    desc: ${1:desc}
+    parm: ${2:parm}
+    return: ${3:return}
+    """
+
+    return
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>deffunc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+	<description> python define function() </description>
+</snippet>
