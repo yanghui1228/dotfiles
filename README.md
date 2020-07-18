@@ -417,3 +417,16 @@ mkdir -p .nutstore/dist
 tar -xzf nutstore_linux_dist_x64.tar.gz -C ~/.nutstore/dist
 ```
 
+## github push problem
+
+Issue - git@github.com: Permission denied (publickey).
+
+1. generate key in local
+
+   ```shell
+   ssh-keygen -t rsa -C "stevenyanghui@qq.com"	
+   ```
+
+   一路回车ENTER
+
+2. copy内容 ~/.ssh/id_rsa.pub 到 github账号的SSH KEY
