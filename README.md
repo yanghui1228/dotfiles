@@ -1,10 +1,9 @@
-# UBUNTU LTS 18.04
+# UBUNTU
 
 ## FSTAB
 
 ```shell
 sudo -e /etc/fstab
-
 ```
 
 and add below lines
@@ -24,11 +23,7 @@ install Typora
 
 ## Sublime Text 3
 
-remove g-Edit and install sublime text 3
-
-```bash
-sudo apt-get purge --auto-remove gedit
-```
+install sublime text 3
 
 snippers:
 
@@ -36,17 +31,16 @@ snippers:
 ~/.config/sublime-text-3/Packages/User
 ```
 
-## Downloads/Videos Folder soft link
+## Downloads/Videos/Music Folder soft link
 
 ```shell
 ln -s target_file link_name
 ```
 
+## UBUNTU docker
+## extension
 
-
-## UBUNTU dock
-plank
-control + right click for configuration
+user theme
 
 ## tweaks
 ```shell
@@ -71,9 +65,11 @@ https://www.zhihu.com/question/47141667?from=profile_question_card
 sudo vim /etc/fonts/conf.d/64-language-selector-prefer.conf
 ```
 
-#### Hiragino Sans GB
+#### 方正细金陵简体 （必装）
 
-Firefox 默认中文字体
+#### 方正屏显雅宋
+
+#### Hiragino Sans GB （optional)
 
 #### Monaco font in gnome terminal (optional)
 
@@ -81,7 +77,16 @@ https://github.com/cstrap/monaco-font/issues/4
 
 need to copy font into /usr/share/fonts/truetype/custom
 
-## Chinese input method
+## Icon Pack
+
+Numix-circle-light
+
+```zsh
+cd /usr/share/icons/
+sudo cp /home/yanghui/HDD1/ubuntu/Citrus-icon-theme/src/scalable/apps/baidunetdisk.svg /usr/share/icons/Numix-Circle/48/apps
+```
+
+## Chinese input method - RIME (no need for ubuntu 20.04)
 
 ```shell
 sudo apt-get install ibus-rime
@@ -96,7 +101,6 @@ ascii_composer:
 ```
 
 ## VMware Horizon Client for linux
-check if new version need install python2 first.
 
 ```shell
 sudo sh ./VMware-Horizon-Client-5.2.0-14604769.x64.bundle
@@ -106,18 +110,32 @@ sudo sh ./VMware-Horizon-Client-5.2.0-14604769.x64.bundle
 DeaDBeeF
 
 ## Linux gaming
-https://lutris.net
+
 Steam
 
 ## Video player
-mpv - https://github.com/mpv-player/mpv
+ubuntu 20.04可直接安装celluloid，不需要安装mpv和配置，方便不少。
 https://celluloid-player.github.io
+
+mpv - https://github.com/mpv-player/mpv
 
 mpv config file
 
 ```shell
 ~/.config/mpv/mpv.conf
 ```
+
+## email
+
+thunderbird
+
+mail.qq.com
+IMAP/SMTP
+mail.qq application safe word
+aspptzoydhdfbich
+
+stevenyanghui@126.com
+63961310ok
 
 
 ## iCloud calendar sync with GNOME - calDAV
@@ -132,7 +150,7 @@ no solution yet
 Vim Configuration Files:
 
 ```shell
-vi ~/.vim/vimrc
+vi ~/.vimrc
 ```
 
 Vim can be configured system wide (globally) via the /etc/vim/vimrc.local file on Ubuntu/Debian based operating systems.
@@ -156,11 +174,20 @@ sudo service smbd restart
 
 ## Virtual machine
 
-VirtualBox
+vmware player 15
+
+### shrink the virtual machine
+
+```shell
+cd 'C:\Program Files\VMware\VMware Tools'
+.\VMwareToolboxCmd disk shrink C:\
+```
+
+
 
 
 ## Cocos creator 
-- Run on virtual windows 10
+Run on vmware on windows 10
 
 ## WPS office 2019
 
@@ -181,21 +208,21 @@ vim ~/.pip/pip.conf
 index-url = https://mirrors.aliyun.com/pypi/simple
 ```
 
-### TA-lib install
+### TA-lib install (not required for ubuntu 20.04)
 
 https://blog.csdn.net/PyTtCcMm/article/details/86178680
 
-### matplotlib
+### matplotlib (not required for 20.04)
 
 ```shell
 apt-get install python3-pyqt5
 ```
 
-### Crontab
+### crontab
 
 crontab setup for user[yanghui]
 
-```shell
+```bash
 Crontab -e
 Crontab -l
 Crontab -r
@@ -224,7 +251,7 @@ SHELL=/bin/zsh
 00 03 * * 1 sh /home/yanghui/HDD1/ubuntu/auto_backup.sh
 ```
 
-check crontab mail
+check crontab mail (optional)
 
 ```shell
 sudo apt install postfix
@@ -245,14 +272,10 @@ ps axo stat,ppid,pid,comm | grep -w defunct
 sudo kill -9 {PID}
 ```
 
-## wine 字体
-
-https://www.linuxidc.com/Linux/2019-03/157663.htm
-
 ## epub reader
 Foliate
 
-## ubuntu 更换国内源
+## ubuntu 更换国内源 (no need to ubuntu 20.04)
 
 #备份
 
@@ -276,7 +299,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted univer
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
 ```
 
-## amule (no need anymore?)
+## amule (optional)
 
 https://www.wendangwang.com/doc/44244f4230c7557b781be223
 
@@ -305,5 +328,92 @@ stop service -
 manage the downloads - 
 amulecmd
 
+```
+
+## Gnome file roller 乱码
+
+在/etc/environment中加入以下两行：
+
+```zsh
+UNZIP="-O CP936"
+ZIPINFO="-O CP936"
+```
+
+Remove p7zip (not required on ubuntu 20.04)
+
+```zsh
+sudo apt-get remove p7zip-full p7zip
+```
+
+## Disable ubuntu update manager (optional)
+
+```zsh
+ gconftool -s --type bool /apps/update-notifier/auto_launch false
+```
+
+
+
+## Disable recent files (optional)
+
+```zsh
+sudo chattr +i ~/.local/share/recently-used.xbel
+```
+
+## Remove snap
+
+
+
+
+
+## RAR 解压
+
+```zsh
+sudo apt install unrar
+```
+
+
+
+## git save credential
+
+```zsh
+# it will store in file ~/.git-credentials
+$ git config --global credential.helper store
+```
+
+
+
+## ubuntu 20.04 nvidia driver issue
+
+```zsh
+1) Edit /etc/config/grub to remove 'splash' from GRUB_CMDLINE_LINUX_DEFAULT
+2) Regenerate /boot/grub/grub.cfg with 'sudo update-grub'
+3) Regenerate the initrd.img files by using 'sudo apt-get --reinstall install' 
+to reinstall the currently installed kernel packages.
+```
+
+### fix the login monitor issue
+
+```zsh
+sudo cp ~/.config/monitors.xml ~gdm/.config/
+```
+
+### nvidia setting
+
+/etc/X11/xorg.conf
+
+
+
+https://askubuntu.com/questions/1230570/cant-rotate-monitor-on-20-04
+
+## 坚果云无法启动
+
+```shell
+$ grep Exec /usr/share/applications/nutstore-menu.desktop             
+Exec=sh -c "nohup ~/.nutstore/dist/bin/nutstore-pydaemon.py >/dev/null 2>&1 &"
+
+~/.nutstore/dist 目录不存在, 则
+
+mkdir -p .nutstore/dist
+tar -xzf nutstore_linux_dist_x64.tar.gz -C ~/.nutstore/dist
 ```
 
