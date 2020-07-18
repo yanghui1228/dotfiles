@@ -36,6 +36,9 @@ main()
 	# crontab
 	crontab -l > $HOME/Documents/dotfiles/auto_backup_data/cron-backup.txt
 
+	# pip
+	cp $HOME/.pip/pip.conf $HOME/Documents/dotfiles/auto_backup_data/pip.conf
+
 	# change access
 	chmod -R 777 $HOME/Documents/dotfiles/auto_backup_data
 }
