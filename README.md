@@ -21,10 +21,6 @@ sudo vi /etc/apt/apt.conf.d/20auto-upgrades
 sudo vi /etc/apt/apt.conf.d/50unattended-upgrades
 ```
 
-## Simple Note
-
-don't install with snap, too slow
-
 ## Typora
 
 install Typora
@@ -45,7 +41,6 @@ snippers:
 ln -s target_file link_name
 ```
 
-## UBUNTU docker
 ## extension
 
 user theme
@@ -145,21 +140,8 @@ thunderbird
 
 mail.qq.com
 IMAP/SMTP
-mail.qq application safe word
-aspptzoydhdfbich
 
-stevenyanghui@126.com
-63961310ok
-
-
-## iCloud calendar sync with GNOME - calDAV
-https://www.slightfuture.com/technote/gnome-caldav
-
-## iCloud contacts sync -> cardDAV
-
-no solution yet
-
-## VIM
+## VIM (mini is enough)
 配置VIM
 Vim Configuration Files:
 
@@ -200,7 +182,7 @@ cd 'C:\Program Files\VMware\VMware Tools'
 
 
 
-## Cocos creator 
+## Cocos creator (optional)
 Run on vmware on windows 10
 
 ## WPS office 2019
@@ -226,13 +208,7 @@ index-url = https://mirrors.aliyun.com/pypi/simple
 
 https://blog.csdn.net/PyTtCcMm/article/details/86178680
 
-### matplotlib (not required for 20.04)
-
-```shell
-apt-get install python3-pyqt5
-```
-
-### crontab
+### crontab (no sudo)
 
 crontab setup for user[yanghui]
 
@@ -254,15 +230,6 @@ SHELL=/bin/zsh
 15 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney.com/industry_turn_around_v1.py
 # gaoqing.la
 00 18 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/Other/gaoQing/gaoQing/spiders/gaoQing2.py
-```
-
-crontab setup for user[root]
-
-```shell
-MAILTO=''
-SHELL=/bin/zsh
-# backup configs
-00 03 * * 1 sh /home/yanghui/HDD1/ubuntu/auto_backup.sh
 ```
 
 check crontab mail (optional)
