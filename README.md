@@ -13,6 +13,14 @@ and add below lines
 UUID=415efeb5-ecae-4c53-90c6-4e5701578b46 /home/yanghui/HDD1   ext4    noatime           0       2
 ```
 
+## stop auto update
+
+``` shell
+sudo vi /etc/apt/apt.conf.d/10periodic
+sudo vi /etc/apt/apt.conf.d/20auto-upgrades
+sudo vi /etc/apt/apt.conf.d/50unattended-upgrades
+```
+
 ## Simple Note
 
 don't install with snap, too slow
@@ -21,7 +29,7 @@ don't install with snap, too slow
 
 install Typora
 
-## Sublime Text 3
+## Sublime Text 3 (optional)
 
 install sublime text 3
 
@@ -41,6 +49,12 @@ ln -s target_file link_name
 ## extension
 
 user theme
+
+themelib - 
+
+```zsh
+~/.themes
+```
 
 ## tweaks
 ```shell
@@ -150,7 +164,7 @@ no solution yet
 Vim Configuration Files:
 
 ```shell
-vi ~/.vimrc
+vi ~/.vim/vimrc
 ```
 
 Vim can be configured system wide (globally) via the /etc/vim/vimrc.local file on Ubuntu/Debian based operating systems.
@@ -327,7 +341,6 @@ stop service -
 
 manage the downloads - 
 amulecmd
-
 ```
 
 ## Gnome file roller 乱码
@@ -384,6 +397,8 @@ $ git config --global credential.helper store
 
 ## ubuntu 20.04 nvidia driver issue
 
+xrandr --screen 0
+
 ```zsh
 1) Edit /etc/config/grub to remove 'splash' from GRUB_CMDLINE_LINUX_DEFAULT
 2) Regenerate /boot/grub/grub.cfg with 'sudo update-grub'
@@ -401,8 +416,6 @@ sudo cp ~/.config/monitors.xml ~gdm/.config/
 
 /etc/X11/xorg.conf
 
-
-
 https://askubuntu.com/questions/1230570/cant-rotate-monitor-on-20-04
 
 ## 坚果云无法启动
@@ -417,16 +430,19 @@ mkdir -p .nutstore/dist
 tar -xzf nutstore_linux_dist_x64.tar.gz -C ~/.nutstore/dist
 ```
 
-## github push problem
 
-Issue - git@github.com: Permission denied (publickey).
 
-1. generate key in local
+##	刷新图标缓存
 
-   ```shell
-   ssh-keygen -t rsa -C "stevenyanghui@qq.com"	
-   ```
+```shell
+sudo update-icon-caches /usr/share/icons/*
+```
 
-   一路回车ENTER
+## 截屏
 
-2. copy内容 ~/.ssh/id_rsa.pub 到 github账号的SSH KEY
+- `PrtSc` – 获取整个屏幕的截图并保存到 Pictures 目录。
+- `Shift + PrtSc` – 获取屏幕的某个区域截图并保存到 Pictures 目录。
+- `Alt + PrtSc` –获取当前窗口的截图并保存到 Pictures 目录。
+- `Ctrl + PrtSc` – 获取整个屏幕的截图并存放到剪贴板。
+- `Shift + Ctrl + PrtSc` – 获取屏幕的某个区域截图并存放到剪贴板。
+- `Ctrl + Alt + PrtSc` – 获取当前窗口的 截图并存放到剪贴板。
