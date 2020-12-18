@@ -3,6 +3,22 @@
 #
 # Automatically backup files for linux installation/recover
 #
+update_tracker ()
+{
+    local aria2_conf="$HOME/.aria2/aria2.conf"
+    local current_os=`uname  -s`
+    echo $current_os
+    echo "Updating tracker list, please wait..."
+    local list=`wget -qO- https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt|awk NF|sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/,/g'`
+    if [ -z "`grep "bt-tracker" $aria2_conf`" ]; then
+        echo -e "\nbt-tracker=$list" >>$aria2_conf
+        echo bt-tracker added!
+    else
+        sed -i "s|bt-tracker.*$|bt-tracker=$list|g" "$aria2_conf"
+        echo bt-tracker updated!
+    fi
+}
+
 main()
 {
 	# backup sublime text 3 config files
@@ -39,7 +55,13 @@ main()
 	# pip
 	cp $HOME/.pip/pip.conf $HOME/Documents/dotfiles/auto_backup_data/pip.conf
 
+	# hosts
+	cp /etc/hosts $HOME/Documents/dotfiles/auto_backup_data/hosts
+	
 	# change access
 	chmod -R 777 $HOME/Documents/dotfiles/auto_backup_data
+	
+	# update tracker
+    update_tracker
 }
 main "$@"
