@@ -24,25 +24,37 @@
 MAILTO=''
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 SHELL=/bin/zsh
+#========================================
+# D A I L Y   J O B S
+#========================================
+# 计算行业相关性集中度历史数据并画图
+00 03 * * 6 python3 $HOME/Documents/quantest/eastmoney_com/industry_compactness_degree_history_v1.py
+# seba -> deprecated, the website is blocked
+# 00 04 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/Other/seba_v2.1.py
+# 东方财富新股发行追踪
+15 08 * * 1,2,3,4,5,6 python3 $HOME/Documents/quantest/eastmoney_com/new_stock_v1.py
+# 东方财富国家队新近股票追踪
+30 08 * * 1,2,3,4,5,6 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_v1.py
+# notification
+30 09 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/sina_com/sina_notification_v1.py
+# 国家统计局月度数据下载并画图
+30 12 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/data_stats_gov_cn/data_stats_gov_cn_downloader_v1.py
 # 每天计算海登伯格凶兆
 30 14 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/baoStock/hindenburgOmenV5.py
 # baostock download service
 30 17 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/baoStock/baostockAutoDownloaderV6.py
-# 东方财富国家队新近股票追踪
-30 08 * * 1,2,3,4,5,6 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_v1.py
-# 东方财富每日行业涨幅排名
-15 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/industry_turn_around_v1.py
+# gaoqing.la
+00 18 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/Other/gaoqing_la_v3.py
 # 计算行业相关性集中度
 00 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/industry_history_v1.py
-# 计算行业相关性集中度历史数据并画图
-00 03 * * 6 python3 $HOME/Documents/quantest/eastmoney_com/industry_compactness_degree_history_v1.py
+# 东方财富每日行业涨幅排名
+15 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/industry_turn_around_v1.py
 # 生意社商品价格下载并画图
+30 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/101ppi_com/100ppi_auto_downloader_v3.py
 30 21 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/100ppi_com/100ppi_auto_downloader_v1.py
-30 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/101ppi_com/100ppi_auto_downloader_v2.py
-# 国家统计局月度数据下载并画图
-30 12 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/data_stats_gov_cn/data_stats_gov_cn_downloader_v1.py
-# gaoqing.la
-00 18 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/Other/gaoQing/gaoQing/spiders/gaoQing2.py
-# seba
-# 00 04 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/Other/seba_v2.1.py
-00 03 * * 1 sh $HOME/Documents/dotfiles/auto_backup.sh
+#========================================
+# W E E K L Y  J O B S
+# note: router will reboot every Monday 3AM
+#========================================
+# system configuration backup
+00 05 * * 1 sh $HOME/Documents/dotfiles/auto_backup.sh
