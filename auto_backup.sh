@@ -41,10 +41,10 @@ main()
 	cp $HOME/.git-credentials $HOME/Documents/dotfiles/auto_backup_data/git-credentials
 
 	# typora themes
-	cp $HOME/.config/Typora/themes $HOME/Documents/dotfiles/auto_backup_data/typora_themes -rf
+	cp $HOME/.config/Typora/themes/* $HOME/Documents/dotfiles/auto_backup_data/typora_themes -rf
 
 	# aria2
-	cp $HOME/.aria2 $HOME/Documents/dotfiles/auto_backup_data/aria2 -rf
+	cp $HOME/.aria2/* $HOME/Documents/dotfiles/auto_backup_data/aria2 -rf
 
 	# zshrc
 	cp $HOME/.zshrc $HOME/Documents/dotfiles/auto_backup_data/zshrc
@@ -63,5 +63,11 @@ main()
 	
 	# update tracker
     update_tracker
+    
+    # git push
+    cd $HOME/Documents/dotfiles
+    git add *
+    git commit -m 'update dotfiles'
+    git push
 }
 main "$@"

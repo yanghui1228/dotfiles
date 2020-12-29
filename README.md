@@ -86,14 +86,26 @@ https://github.com/cstrap/monaco-font/issues/4
 
 need to copy font into /usr/share/fonts/truetype/custom
 
-## Icon Pack
-
-Numix-circle-light
+## Icon
 
 ```zsh
-cd /usr/share/icons/
+cd /home/yanghui/.local/share/icons/WhiteSur/apps/scalable
 sudo cp /home/yanghui/HDD1/ubuntu/Citrus-icon-theme/src/scalable/apps/baidunetdisk.svg /usr/share/icons/Numix-Circle/48/apps
+
+appliation icons:
+/usr/share/applications
+~/.local/share/applications
 ```
+
+##	刷新图标缓存
+
+```shell
+update-icon-caches /home/yanghui/.local/share/icons/* 
+```
+
+## 
+
+
 
 ## Chinese input method - RIME (no need for ubuntu 20.04)
 
@@ -206,7 +218,7 @@ index-url = https://mirrors.aliyun.com/pypi/simple
 
 ### TA-lib install (not required for ubuntu 20.04)
 
-https://blog.csdn.net/PyTtCcMm/article/details/86178680
+https://mrjbq7.github.io/ta-lib/install.html
 
 ### crontab (no sudo)
 
@@ -325,10 +337,11 @@ Remove p7zip (not required on ubuntu 20.04)
 sudo apt-get remove p7zip-full p7zip
 ```
 
-## Disable ubuntu update manager (optional)
+## Disable ubuntu update manager
 
 ```zsh
- gconftool -s --type bool /apps/update-notifier/auto_launch false
+sudo systemctl disable apt-daily.service apt-daily-upgrade.service
+sudo systemctl disable apt-daily.timer apt-daily-upgrade.timer
 ```
 
 
@@ -398,12 +411,6 @@ tar -xzf nutstore_linux_dist_x64.tar.gz -C ~/.nutstore/dist
 ```
 
 
-
-##	刷新图标缓存
-
-```shell
-sudo update-icon-caches /usr/share/icons/*
-```
 
 ## 截屏
 
