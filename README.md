@@ -25,16 +25,6 @@ sudo vi /etc/apt/apt.conf.d/50unattended-upgrades
 
 install Typora
 
-## Sublime Text 3 (optional)
-
-install sublime text 3
-
-snippers:
-
-```shell
-~/.config/sublime-text-3/Packages/User
-```
-
 ## Downloads/Videos/Music Folder soft link
 
 ```shell
@@ -48,7 +38,7 @@ user theme
 themelib - 
 
 ```zsh
-~/.themes
+~/.local/share/.themes
 ```
 
 ## tweaks
@@ -56,16 +46,19 @@ themelib -
 sudo apt install gnome-tweaks
 ```
 
-#### SNFS UI font
-https://github.com/supermarin/YosemiteSanFranciscoFont
+## Fonts 
 
-#### Ping Fang
+#### UI - SF Pro Display Regular
+
+#### Document - SF Pro Text Regular
+
+#### Ping Fang (optional)
 https://github.com/paraself/PingFang-Fonts
 
 #### MS Yahei Consolas
 https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12
 
-for terminal and sublime text 3
+for terminal
 
 #### Noto Sans CJK 配置
 https://www.zhihu.com/question/47141667?from=profile_question_card
@@ -74,9 +67,9 @@ https://www.zhihu.com/question/47141667?from=profile_question_card
 sudo vim /etc/fonts/conf.d/64-language-selector-prefer.conf
 ```
 
-#### 方正细金陵简体 （必装）
+#### 方正细金陵简体 （optional）
 
-#### 方正屏显雅宋
+#### 方正屏显雅宋 (optional)
 
 #### Hiragino Sans GB （optional)
 
@@ -86,7 +79,7 @@ https://github.com/cstrap/monaco-font/issues/4
 
 need to copy font into /usr/share/fonts/truetype/custom
 
-## Icon
+## Icon - WhiteSur
 
 ```zsh
 cd /home/yanghui/.local/share/icons/WhiteSur/apps/scalable
@@ -103,9 +96,9 @@ appliation icons:
 update-icon-caches /home/yanghui/.local/share/icons/* 
 ```
 
-## 
+## theme 
 
-
+WhiteSur-gtk-theme-master
 
 ## Chinese input method - RIME (no need for ubuntu 20.04)
 
@@ -182,7 +175,7 @@ sudo service smbd restart
 
 ## Virtual machine
 
-vmware player 15
+vmware player 16
 
 ### shrink the virtual machine
 
@@ -216,7 +209,7 @@ vim ~/.pip/pip.conf
 index-url = https://mirrors.aliyun.com/pypi/simple
 ```
 
-### TA-lib install (not required for ubuntu 20.04)
+### TA-lib install
 
 https://mrjbq7.github.io/ta-lib/install.html
 
@@ -268,7 +261,7 @@ sudo kill -9 {PID}
 ## epub reader
 Foliate
 
-## ubuntu 更换国内源 (no need to ubuntu 20.04)
+## ubuntu 更换国内源
 
 #备份
 
