@@ -159,6 +159,10 @@ Vim can be configured system wide (globally) via the /etc/vim/vimrc.local file o
 ## Download manager
 install and config aria2
 
+startup application - 
+
+/bin/aria2c --conf-path=/home/yanghui/.aria2/aria2.conf -D
+
 ## NFS/samba
 Install samba
 https://blog.csdn.net/Stone_OverLooking/article/details/81508546
