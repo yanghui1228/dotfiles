@@ -417,3 +417,8 @@ tar -xzf nutstore_linux_dist_x64.tar.gz -C ~/.nutstore/dist
 - `Ctrl + PrtSc` – 获取整个屏幕的截图并存放到剪贴板。
 - `Shift + Ctrl + PrtSc` – 获取屏幕的某个区域截图并存放到剪贴板。
 - `Ctrl + Alt + PrtSc` – 获取当前窗口的 截图并存放到剪贴板。
+
+## 蓝牙自动连接
+
+``` bluetoothctl connect EC:FA:5C:43:6C:28 ```
+
