@@ -61,6 +61,8 @@ SHELL=/bin/zsh
 35 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/sina_com/arbitrage_forex_stock_v1.py
 # 白条猪价格/农业股票 统计套利策略
 40 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/zhue_com_cn/arbitrage_zhue_stock_v1.py
+# RSI plotting 
+45 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/RSI_ETF_v1.py
 #========================================
 #========================================
 # W E E K L Y  J O B S
