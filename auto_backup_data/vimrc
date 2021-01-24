@@ -1,6 +1,9 @@
 " $HOME/.vimrc
 " ~/.vim/vimrc
-"
+
+"disable compatible mode
+set nocompatible
+
 "显示行号
 set nu
 "启动时隐去援助提示

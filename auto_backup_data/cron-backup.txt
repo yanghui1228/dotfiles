@@ -28,7 +28,7 @@ SHELL=/bin/zsh
 # D A I L Y   J O B S
 #========================================
 # 计算行业相关性集中度历史数据并画图
-00 03 * * 6 python3 $HOME/Documents/quantest/eastmoney_com/industry_compactness_degree_history_v1.py
+# 00 03 * * 6 python3 $HOME/Documents/quantest/eastmoney_com/industry_compactness_degree_history_v1.py
 # seba -> deprecated, the website is blocked
 # 00 04 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/Other/seba_v2.1.py
 # 东方财富新股发行追踪
