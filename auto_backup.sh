@@ -58,6 +58,10 @@ main()
 	# hosts
 	cp /etc/hosts $HOME/Documents/dotfiles/auto_backup_data/hosts
 	
+	# nvidia display
+	cp /etc/X11/xorg.conf $HOME/Documents/dotfiles/auto_backup_data/xorg.conf
+	cp $HOME/.config/monitors.xml $HOME/Documents/dotfiles/auto_backup_data/monitors.xml
+
 	# change access
 	chmod -R 777 $HOME/Documents/dotfiles/auto_backup_data
 	
