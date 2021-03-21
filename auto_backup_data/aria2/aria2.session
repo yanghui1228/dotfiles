@@ -1,6 +1,24 @@
-magnet:?xt=urn:btih:F9F7ADCAC2C755025E5CCECDE72E7849938E80B7&dn=14&tr=htt://ya.97ro.org
- gid=4b18fd144c559f10
+magnet:?xt=urn:btih:11C0C31D864111ED5A98DBE2EA7FAE794A65DA6C&dn=ADN260.HD.zip&tr=http://ya.97ro.org/
+ gid=40db6a79f64931c2
  out=
  parameterized-uri=false
- header=Referer: https://www1.hgcdown.rocks/torrent/F9F7ADCAC2C755025E5CCECDE72E7849938E80B7"
+ header=Referer: https://www1.downsx.pw/torrent/11C0C31D864111ED5A98DBE2EA7FAE794A65DA6C"
+ header=Cookie:
+magnet:?xt=urn:btih:203E95F455C9E6F79B222EEB72B82DE9AE1EA952&dn=SSNI-895&tr=http://ya.97ro.org/
+ gid=2c406172483b9147
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/203E95F455C9E6F79B222EEB72B82DE9AE1EA952"
+ header=Cookie: 
+magnet:?xt=urn:btih:203E95F455C9E6F79B222EEB72B82DE9AE1EA952&dn=SSNI-895&tr=http://ya.97ro.org/
+ gid=a24b0897f8dd43d8
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/203E95F455C9E6F79B222EEB72B82DE9AE1EA952"
+ header=Cookie: 
+magnet:?xt=urn:btih:E2CEE48697A02B0E3F28F06E48F07DF8ACA862D1&dn=KSBJ-102&tr=http://ya.97ro.org/
+ gid=856362ce03fed586
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/E2CEE48697A02B0E3F28F06E48F07DF8ACA862D1"
  header=Cookie: 
