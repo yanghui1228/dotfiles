@@ -10,35 +10,23 @@ magnet:?xt=urn:btih:203E95F455C9E6F79B222EEB72B82DE9AE1EA952&dn=SSNI-895&tr=http
  parameterized-uri=false
  header=Referer: https://www1.downsx.pw/torrent/203E95F455C9E6F79B222EEB72B82DE9AE1EA952"
  header=Cookie:
-magnet:?xt=urn:btih:1A7E6D6FB2ECE12C796F1F4F855483207B5DA7BF&dn=MIDE-780&tr=http://ya.97ro.org/
- gid=efd6ebe0edb2697d
- out=
- parameterized-uri=false
- header=Referer: https://www1.downsx.pw/torrent/1A7E6D6FB2ECE12C796F1F4F855483207B5DA7BF"
- header=Cookie:
 magnet:?xt=urn:btih:C68F15E3FA30524061610683564EEB94B57E87CA&dn=PPPD-851&tr=http://ya.97ro.org/
  gid=255de505c1b7e172
  out=
  parameterized-uri=false
  header=Referer: https://www1.downsx.pw/torrent/C68F15E3FA30524061610683564EEB94B57E87CA"
  header=Cookie:
-magnet:?xt=urn:btih:C4F76677544EA17901CB8BB3A059DEEF07683080&dn=HND-849&tr=http://ya.97ro.org/
- gid=e47bd78cb5f6ad7d
+magnet:?xt=urn:btih:9E58226E99FAC11EAA939185D9E67C1D5D20010A&dn=MIAA-367C&tr=http://ya.97ro.org/
+ gid=20d304daa14d09d2
  out=
  parameterized-uri=false
- header=Referer: https://www1.downsx.pw/torrent/C4F76677544EA17901CB8BB3A059DEEF07683080"
+ header=Referer: https://www1.downsx.pw/torrent/9E58226E99FAC11EAA939185D9E67C1D5D20010A"
  header=Cookie:
-magnet:?xt=urn:btih:58E215DAF37F103DB99CD2AA3E8F0DB3A060B9B0&dn=MKMP361.HD.zip&tr=http://ya.97ro.org/
- gid=9e1272cbd4eb9e3a
+magnet:?xt=urn:btih:0B3DF8434141F17AE622C39C85035B3F00760630&dn=345SIMM-623&tr=
+ gid=33eda3c6ff48a67f
  out=
  parameterized-uri=false
- header=Referer: https://www1.downsx.pw/torrent/58E215DAF37F103DB99CD2AA3E8F0DB3A060B9B0"
- header=Cookie:
-magnet:?xt=urn:btih:203E95F455C9E6F79B222EEB72B82DE9AE1EA952&dn=SSNI-895&tr=http://ya.97ro.org/
- gid=2c406172483b9147
- out=
- parameterized-uri=false
- header=Referer: https://www1.downsx.pw/torrent/203E95F455C9E6F79B222EEB72B82DE9AE1EA952"
+ header=Referer: https://www1.hgcdown.net/torrent/0B3DF8434141F17AE622C39C85035B3F00760630"
  header=Cookie:
 magnet:?xt=urn:btih:FFFCD41C60A4826ADA5F323C1BB5BD7D54650226&dn=SSNI-784&tr=http://ya.97ro.org/
  gid=458d578c272c8ed3
@@ -46,33 +34,117 @@ magnet:?xt=urn:btih:FFFCD41C60A4826ADA5F323C1BB5BD7D54650226&dn=SSNI-784&tr=http
  parameterized-uri=false
  header=Referer: https://www1.downsx.pw/torrent/FFFCD41C60A4826ADA5F323C1BB5BD7D54650226"
  header=Cookie:
+magnet:?xt=urn:btih:203E95F455C9E6F79B222EEB72B82DE9AE1EA952&dn=SSNI-895&tr=http://ya.97ro.org/
+ gid=2c406172483b9147
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/203E95F455C9E6F79B222EEB72B82DE9AE1EA952"
+ header=Cookie:
+magnet:?xt=urn:btih:C4F76677544EA17901CB8BB3A059DEEF07683080&dn=HND-849&tr=http://ya.97ro.org/
+ gid=e47bd78cb5f6ad7d
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/C4F76677544EA17901CB8BB3A059DEEF07683080"
+ header=Cookie:
 magnet:?xt=urn:btih:64DA1AAF30BD03C793E2F38E4E505CF4D29FBCFB&dn=PPPD-849&tr=http://ya.97ro.org/
  gid=b68d424b451b83b3
  out=
  parameterized-uri=false
  header=Referer: https://www1.downsx.pw/torrent/64DA1AAF30BD03C793E2F38E4E505CF4D29FBCFB"
  header=Cookie:
-magnet:?xt=urn:btih:11C0C31D864111ED5A98DBE2EA7FAE794A65DA6C&dn=ADN260.HD.zip&tr=http://ya.97ro.org/
- gid=40db6a79f64931c2
+magnet:?xt=urn:btih:58E215DAF37F103DB99CD2AA3E8F0DB3A060B9B0&dn=MKMP361.HD.zip&tr=http://ya.97ro.org/
+ gid=9e1272cbd4eb9e3a
  out=
  parameterized-uri=false
- header=Referer: https://www1.downsx.pw/torrent/11C0C31D864111ED5A98DBE2EA7FAE794A65DA6C"
+ header=Referer: https://www1.downsx.pw/torrent/58E215DAF37F103DB99CD2AA3E8F0DB3A060B9B0"
  header=Cookie:
-magnet:?xt=urn:btih:9E58226E99FAC11EAA939185D9E67C1D5D20010A&dn=MIAA-367C&tr=http://ya.97ro.org/
- gid=20d304daa14d09d2
+magnet:?xt=urn:btih:1A7E6D6FB2ECE12C796F1F4F855483207B5DA7BF&dn=MIDE-780&tr=http://ya.97ro.org/
+ gid=efd6ebe0edb2697d
  out=
  parameterized-uri=false
- header=Referer: https://www1.downsx.pw/torrent/9E58226E99FAC11EAA939185D9E67C1D5D20010A"
+ header=Referer: https://www1.downsx.pw/torrent/1A7E6D6FB2ECE12C796F1F4F855483207B5DA7BF"
+ header=Cookie:
+magnet:?xt=urn:btih:ED1B7E98891BDF6BBC0F93D61B602716EF841BAA&dn=SSNI-952&tr=http://ya.97ro.org/
+ gid=d39bd47d481bf5b8
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/ED1B7E98891BDF6BBC0F93D61B602716EF841BAA"
  header=Cookie: 
-magnet:?xt=urn:btih:0B3DF8434141F17AE622C39C85035B3F00760630&dn=345SIMM-623&tr=
- gid=33eda3c6ff48a67f
+magnet:?xt=urn:btih:606B74F002AFC6B4B55FE2E9B913FB2057C93D64&dn=jul00505&tr=
+ gid=94defb266f5d1a45
  out=
  parameterized-uri=false
- header=Referer: https://www1.hgcdown.net/torrent/0B3DF8434141F17AE622C39C85035B3F00760630"
+ header=Referer: https://www1.hgcdown.net/torrent/606B74F002AFC6B4B55FE2E9B913FB2057C93D64"
+ header=Cookie: 
+magnet:?xt=urn:btih:FC623B82F0EB4BD7E4A281E459EAC94A168E7A53&dn=12&tr=
+ gid=72e630e399e1ed1b
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/FC623B82F0EB4BD7E4A281E459EAC94A168E7A53"
+ header=Cookie: 
+magnet:?xt=urn:btih:3F4481455F806FFA6D74792505DC49F4C6738705&dn=JUFE238&tr=
+ gid=59c07705a6cc73d6
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.hgcdown.net/torrent/3F4481455F806FFA6D74792505DC49F4C6738705"
+ header=Cookie: 
+magnet:?xt=urn:btih:EF95CD2E11E90027CE025E8DA93551AD9B26EF3A&dn=jufe00270&tr=
+ gid=69408dd5fe52a611
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.hgcdown.net/torrent/EF95CD2E11E90027CE025E8DA93551AD9B26EF3A"
  header=Cookie: 
 magnet:?xt=urn:btih:9C679171B5FBD164581CC011E02B74999872EBE4&dn=ABW065&tr=
  gid=956d6ad2e20fb650
  out=
  parameterized-uri=false
  header=Referer: https://www1.downsx.pw/torrent/9C679171B5FBD164581CC011E02B74999872EBE4"
+ header=Cookie:
+magnet:?xt=urn:btih:0C460293A986FDEF3558B753677ACC817153A61D&dn=VENU-984C&tr=http://ya.97ro.org/
+ gid=a41fd13b1f837857
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/0C460293A986FDEF3558B753677ACC817153A61D"
+ header=Cookie: 
+magnet:?xt=urn:btih:43544541CEFAAE4C77940C2FA67289E333D92277&dn=VENU-986C&tr=http://ya.97ro.org/
+ gid=6688234267280733
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/43544541CEFAAE4C77940C2FA67289E333D92277"
+ header=Cookie: 
+magnet:?xt=urn:btih:30D66B065AEFB4E06A8D9446443794939C476284&dn=VENU-992C&tr=http://ya.97ro.org/
+ gid=4fe4a276a5606e84
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/30D66B065AEFB4E06A8D9446443794939C476284"
+ header=Cookie: 
+magnet:?xt=urn:btih:E5E3692391931EDCDD50C078426E5BCFF30463DA&dn=VENU-991C&tr=http://ya.97ro.org/
+ gid=df86109d2371b3b9
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/E5E3692391931EDCDD50C078426E5BCFF30463DA"
+ header=Cookie: 
+magnet:?xt=urn:btih:F9F9B405D9D7F08D1F5D1A7FA57EEE7EA22C4AD2&dn=WAAA-029C&tr=http://ya.97ro.org/
+ gid=2099b710dac7039f
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/F9F9B405D9D7F08D1F5D1A7FA57EEE7EA22C4AD2"
+ header=Cookie: 
+magnet:?xt=urn:btih:082D320EA0F60F297D0DB1D26E2CEE32BD96350E&dn=WAAA-020C&tr=http://ya.97ro.org/
+ gid=3cba2cf17a088437
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/082D320EA0F60F297D0DB1D26E2CEE32BD96350E"
+ header=Cookie: 
+magnet:?xt=urn:btih:FCF96137E9F7D5E8960575B60BC568D568ECF106&dn=WAAA-019C&tr=http://ya.97ro.org/
+ gid=456815a67ccef0fa
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/FCF96137E9F7D5E8960575B60BC568D568ECF106"
+ header=Cookie: 
+magnet:?xt=urn:btih:3A798369737DE553AC18813D23B7A0BEA152BDEC&dn=WAAA-030C&tr=http://ya.97ro.org/
+ gid=1c2fdb36e02cc349
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.pw/torrent/3A798369737DE553AC18813D23B7A0BEA152BDEC"
  header=Cookie: 

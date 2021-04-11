@@ -62,6 +62,9 @@ main()
 	cp /etc/X11/xorg.conf $HOME/Documents/dotfiles/auto_backup_data/xorg.conf
 	cp $HOME/.config/monitors.xml $HOME/Documents/dotfiles/auto_backup_data/monitors.xml
 
+	# xprofile (mouse speed)
+	cp $HOME/.xprofile $HOME/Documents/dotfiles/auto_backup_data/xprofile
+	
 	# change access
 	chmod -R 777 $HOME/Documents/dotfiles/auto_backup_data
 	
