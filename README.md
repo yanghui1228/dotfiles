@@ -422,3 +422,15 @@ tar -xzf nutstore_linux_dist_x64.tar.gz -C ~/.nutstore/dist
 
 ``` bluetoothctl connect EC:FA:5C:43:6C:28 ```
 
+## Virtual Machine
+
+sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virtinst
+
+sudo adduser yanghui libvirt
+
+```
+sudo apt install virt-manager
+```
+
+all virtual machine in /etc/libvirt/qemu/
+
