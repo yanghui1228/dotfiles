@@ -6,7 +6,7 @@
       <scale>1</scale>
       <primary>yes</primary>
       <transform>
-        <rotation>left</rotation>
+        <rotation>right</rotation>
         <flipped>no</flipped>
       </transform>
       <monitor>
@@ -31,7 +31,7 @@
       <scale>2</scale>
       <primary>yes</primary>
       <transform>
-        <rotation>left</rotation>
+        <rotation>right</rotation>
         <flipped>no</flipped>
       </transform>
       <monitor>

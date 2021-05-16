@@ -422,15 +422,12 @@ tar -xzf nutstore_linux_dist_x64.tar.gz -C ~/.nutstore/dist
 
 ``` bluetoothctl connect EC:FA:5C:43:6C:28 ```
 
-## Virtual Machine
+## VMware player
 
-sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virtinst
-
-sudo adduser yanghui libvirt
-
-```
-sudo apt install virt-manager
+```shell
+sudo vi /usr/share/applications/vmware-player.desktop
+Exec=/usr/bin/vmplayer '/home/yanghui/vmware/Windows 10 x64/Windows 10 x64.vmx'
 ```
 
-all virtual machine in /etc/libvirt/qemu/
+
 
