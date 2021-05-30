@@ -42,7 +42,7 @@ SHELL=/bin/zsh
 # 每天计算海登伯格凶兆
 30 14 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/baoStock/hindenburgOmenV5.py
 # baostock download service
-30 17 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/baoStock/baostockAutoDownloaderV7.py
+30 17 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/baoStock/baostockAutoDownloaderV8.py
 # gaoqing.la
 00 18 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/Other/gaoqing_la_v3.py
 # 社保股MACD择时策略
