@@ -31,10 +31,10 @@ SHELL=/bin/zsh
 # 00 03 * * 6 python3 $HOME/Documents/quantest/eastmoney_com/industry_compactness_degree_history_v1.py
 # seba -> deprecated, the website is blocked
 # 00 04 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/Other/seba_v2.1.py
+# 东方财富国家队新近股票追踪
+00 08 * * 1,2,3,4,5,6 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_v1.py
 # 东方财富新股发行追踪
 15 08 * * 1,2,3,4,5,6 python3 $HOME/Documents/quantest/eastmoney_com/new_stock_v1.py
-# 东方财富国家队新近股票追踪
-30 08 * * 1,2,3,4,5,6 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_v1.py
 # notification
 #30 09 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/sina_com/sina_notification_v1.py
 # 国家统计局月度数据下载并画图
@@ -54,7 +54,7 @@ SHELL=/bin/zsh
 # 生意社商品价格下载并画图
 20 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/100ppi_com/arbitrage_material_stock_v1.py
 # BDI 统计套利策略
-25 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eworldship_com/arbitrage_BDI_stock_v1.py
+25 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/arbitrage_BDI_stock_v1.py
 # A/H股统计套利策略
 30 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/arbitrage_a_h_stock_v1.py
 # 美元指数/纸业股票 统计套利策略
