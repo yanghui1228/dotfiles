@@ -65,6 +65,10 @@ main()
 	# xprofile (mouse speed)
 	cp $HOME/.xprofile $HOME/Documents/dotfiles/auto_backup_data/xprofile
 	
+	# language render provile
+	cp /etc/fonts/conf.d/60-latin.conf $HOME/Documents/dotfiles/auto_backup_data/60-latin.conf
+	cp /etc/fonts/conf.d/64-language-selector-prefer.conf $HOME/Documents/dotfiles/auto_backup_data/64-language-selector-prefer.conf
+	
 	# change access
 	chmod -R 777 $HOME/Documents/dotfiles/auto_backup_data
 	

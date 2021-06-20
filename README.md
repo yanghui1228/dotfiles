@@ -55,23 +55,26 @@ sudo apt install gnome-tweaks
 #### Ping Fang (optional)
 https://github.com/paraself/PingFang-Fonts
 
-#### MS Yahei Consolas
+#### MS Yahei Consolas (optional)
 https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12
 
 for terminal
+
+Source Code Pro
 
 #### Noto Sans CJK 配置
 https://www.zhihu.com/question/47141667?from=profile_question_card
 
 ```shell
 sudo vim /etc/fonts/conf.d/64-language-selector-prefer.conf
+sudo vim /etc/fonts/conf.d/60-latin.conf
 ```
 
 #### 方正细金陵简体 （optional）
 
 #### 方正屏显雅宋 (optional)
 
-#### Hiragino Sans GB （optional)
+#### Hiragino Sans GB （make default)
 
 #### Monaco font in gnome terminal (optional)
 
