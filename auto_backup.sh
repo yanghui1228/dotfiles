@@ -69,6 +69,11 @@ main()
 	cp /etc/fonts/conf.d/60-latin.conf $HOME/Documents/dotfiles/auto_backup_data/60-latin.conf
 	cp /etc/fonts/conf.d/64-language-selector-prefer.conf $HOME/Documents/dotfiles/auto_backup_data/64-language-selector-prefer.conf
 	
+	# locale
+	cp /usr/share/i18n/locales/en_CN $HOME/Documents/dotfiles/auto_backup_data/locales/en_CN
+	cp /var/lib/locales/supported.d/local $HOME/Documents/dotfiles/auto_backup_data/locales/local
+	cp /etc/environment $HOME/Documents/dotfiles/auto_backup_data/locales/environment
+	
 	# change access
 	chmod -R 777 $HOME/Documents/dotfiles/auto_backup_data
 	
@@ -78,7 +83,7 @@ main()
     # git push
     cd $HOME/Documents/dotfiles
     git add *
-    git commit -m 'update dotfiles'
+    git commit -m 'update linux dotfiles'
     git push
 }
 main "$@"
