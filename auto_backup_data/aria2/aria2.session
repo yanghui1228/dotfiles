@@ -1,9 +1,3 @@
-magnet:?xt=urn:btih:3CFDDFD6C5AFE205DBAD38B290A7B425F6B69F1D&dn=VENX-041C&tr=http://z1.1080pgqzz.club/pw/index.php
- gid=1dadda1f96aaa06b
- out=
- parameterized-uri=false
- header=Referer: https://www1.downsx.net/torrent/3CFDDFD6C5AFE205DBAD38B290A7B425F6B69F1D"
- header=Cookie:
 magnet:?xt=urn:btih:3A76FCB5098AD9B8C8B1EF9A8261946F81ACF4F6&dn=HUNTA947C&tr=http://ya.97ro.org/
  gid=6c76bbac30db497f
  out=
@@ -15,6 +9,12 @@ magnet:?xt=urn:btih:9228F42CD24813F05D8C5A44E0BC8DF269AAB18F&dn=06&tr=http:ya.97
  out=
  parameterized-uri=false
  header=Referer: https://www1.downsx.net/torrent/9228F42CD24813F05D8C5A44E0BC8DF269AAB18F"
+ header=Cookie:
+magnet:?xt=urn:btih:3CFDDFD6C5AFE205DBAD38B290A7B425F6B69F1D&dn=VENX-041C&tr=http://z1.1080pgqzz.club/pw/index.php
+ gid=1dadda1f96aaa06b
+ out=
+ parameterized-uri=false
+ header=Referer: https://www1.downsx.net/torrent/3CFDDFD6C5AFE205DBAD38B290A7B425F6B69F1D"
  header=Cookie:
 magnet:?xt=urn:btih:767D95C1EEE0DF90702A5E0074782AA9960180C8&dn=11&tr=http:ya.97ro.org/
  gid=667869ba5fb2a009

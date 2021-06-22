@@ -70,7 +70,7 @@ main()
 	cp /etc/fonts/conf.d/64-language-selector-prefer.conf $HOME/Documents/dotfiles/auto_backup_data/64-language-selector-prefer.conf
 	
 	# locale
-	cp /usr/share/i18n/locales/en_CN $HOME/Documents/dotfiles/auto_backup_data/locales/en_CN
+	cp /usr/share/i18n/locales/zh_HK $HOME/Documents/dotfiles/auto_backup_data/locales/zh_HK
 	cp /var/lib/locales/supported.d/local $HOME/Documents/dotfiles/auto_backup_data/locales/local
 	cp /etc/environment $HOME/Documents/dotfiles/auto_backup_data/locales/environment
 	
