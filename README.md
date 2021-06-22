@@ -434,8 +434,6 @@ Exec=/usr/bin/vmplayer '/home/yanghui/vmware/Windows 10 x64/Windows 10 x64.vmx'
 
 ## How to change the date display to international format
 
-- cd /usr/share/i18n/locales
-
 - restore /usr/share/i18n/locales/en_CN
 
 - restore /var/lib/locales/supported.d/local
@@ -443,3 +441,4 @@ Exec=/usr/bin/vmplayer '/home/yanghui/vmware/Windows 10 x64/Windows 10 x64.vmx'
 
 - restore /etc/environment
 - Reboot/relogin, Now you should have dates displayed like this: 2007-01-18.
+
