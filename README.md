@@ -434,7 +434,7 @@ Exec=/usr/bin/vmplayer '/home/yanghui/vmware/Windows 10 x64/Windows 10 x64.vmx'
 
 ## How to change the date display to international format
 
-- restore /usr/share/i18n/locales/zh_HK
+- restore /usr/share/i18n/locales/en_CN
 
 - restore /var/lib/locales/supported.d/local
 - sudo dpkg-reconfigure locales
