@@ -10,7 +10,7 @@ set nu
 set shortmess=atI
 
 "语法高亮
-"syntax on
+syntax on
 
 "不需要备份
 set nobackup
@@ -74,24 +74,26 @@ set fillchars=stlnc:/
 
 " vundle 环境设置
 filetype on
-"set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 "vundle管理的插件列表必须位于 vundle#begin() 和 vundle#end() 之间
-"call vundle#begin()
-"Plugin 'VundleVim/Vundle.vim'
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
 "Plugin 'altercation/vim-colors-solarized'
-"Plugin 'tomasr/molokai'
+Plugin 'tomasr/molokai'
+"Plugin 'vim-scripts/indentpython.vim'
+"Bundle 'Valloric/YouCompleteMe'
 "Plugin 'vim-scripts/phd'
 "Plugin 'Lokaltog/vim-powerline'
 "Plugin 'octol/vim-cpp-enhanced-highlight'
 "Plugin 'Raimondi/delimitMate'
 " 插件列表结束
-"call vundle#end()
+call vundle#end()
 filetype plugin indent on
 
 " 配色方案
 "set background=dark
 "colorscheme torte
-"colorscheme molokai
+colorscheme molokai
 "colorscheme phd
 "colorscheme GitHub
 "colorscheme distinguished
