@@ -27,10 +27,11 @@ main()
 	# mpv config file
 	cp $HOME/.config/mpv/mpv.conf $HOME/Documents/dotfiles/auto_backup_data/mpv.conf
 	
-	# vimrc
+	# vim
 	# cp /home/yanghui/.vim/vimrc /home/yanghui/HDD1/ubuntu/auto_backup_data/vimrc
 	cp $HOME/.vimrc $HOME/Documents/dotfiles/auto_backup_data/vimrc
-
+	cp $HOME/.vim/* $HOME/Documents/dotfiles/auto_backup_data/vim -rf
+	
 	# samba config
 	cp /etc/samba/smb.conf $HOME/Documents/dotfiles/auto_backup_data/smb.conf
 	

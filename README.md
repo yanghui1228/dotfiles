@@ -13,7 +13,7 @@ and add below lines
 UUID=415efeb5-ecae-4c53-90c6-4e5701578b46 /home/yanghui/HDD1   ext4    noatime           0       2
 ```
 
-## stop auto update
+## stop auto update (optional)
 
 ``` shell
 sudo vi /etc/apt/apt.conf.d/10periodic
@@ -31,6 +31,16 @@ install Typora
 ln -s target_file link_name
 ```
 
+## swap
+禁用swap
+sudo swapoff /swapfile
+修改swap 空间
+sudo dd if=/dev/zero of=/swapfile bs=1M count=4096
+设置文件为“swap file”类型
+sudo mkswap /swapfile
+启用swapfile
+sudo swapon /swapfile
+
 ## extension
 
 user theme
@@ -40,6 +50,10 @@ themelib -
 ```zsh
 ~/.local/share/.themes
 ```
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 ## tweaks
 ```shell
@@ -55,6 +69,7 @@ sudo apt install gnome-tweaks
 #### Ping Fang (optional)
 https://github.com/paraself/PingFang-Fonts
 
+#### Source Code Pro
 #### MS Yahei Consolas (optional)
 https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12
 
@@ -144,12 +159,10 @@ mpv config file
 
 ## email
 
-thunderbird
+geary (with outlook)
 
-mail.qq.com
-IMAP/SMTP
 
-## VIM (mini is enough)
+## VIM
 配置VIM
 Vim Configuration Files:
 
@@ -192,8 +205,6 @@ cd 'C:\Program Files\VMware\VMware Tools'
 ```
 
 
-
-
 ## Cocos creator (optional)
 Run on vmware on windows 10
 
@@ -222,7 +233,7 @@ https://mrjbq7.github.io/ta-lib/install.html
 
 ### crontab (no sudo)
 
-crontab setup for user[yanghui]
+crontab setup for user [yanghui]
 
 ```bash
 Crontab -e
@@ -268,7 +279,7 @@ sudo kill -9 {PID}
 ## epub reader
 Foliate
 
-## ubuntu 更换国内源
+## ubuntu 更换国内源 (optional)
 
 #备份
 
@@ -337,7 +348,7 @@ Remove p7zip (not required on ubuntu 20.04)
 sudo apt-get remove p7zip-full p7zip
 ```
 
-## Disable ubuntu update manager
+## Disable ubuntu update manager (optional)
 
 ```zsh
 sudo systemctl disable apt-daily.service apt-daily-upgrade.service
@@ -354,7 +365,18 @@ sudo chattr +i ~/.local/share/recently-used.xbel
 
 ## Remove snap
 
+```zsh
+snap list
+sudo snap remove <package>
+sudo umount /snap/core/xxxx
+sudo umount /var/snap
+sudo apt purge snapd
 
+rm -rf ~/snap
+sudo rm -rf /snap
+sudo rm -rf /var/snap
+sudo rm -rf /var/lib/snapd
+```
 
 
 
