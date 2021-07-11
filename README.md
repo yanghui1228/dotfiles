@@ -231,6 +231,11 @@ index-url = https://mirrors.aliyun.com/pypi/simple
 
 https://mrjbq7.github.io/ta-lib/install.html
 
+### pip packages to install
+
+pip3 install TA-Lib html5lib future baostock matplotlib pandas lxml bs4 aiohttp statsmodels jinja2
+
+
 ### crontab (no sudo)
 
 crontab setup for user [yanghui]
