@@ -394,7 +394,13 @@ sudo apt install unrar
 # it will store in file ~/.git-credentials
 $ git config --global credential.helper store
 ```
+git config --global user.email "stevenyanghui@qq.com"
+git config --global user.name "yanghui"
 
+### generate new ssh key
+https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+### add ssh key to github.com
 
 
 ## ubuntu 20.04 nvidia driver issue
