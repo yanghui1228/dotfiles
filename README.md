@@ -62,22 +62,38 @@ sudo apt install gnome-tweaks
 
 ## Fonts 
 
+```zsh
+# fonts libs
+/usr/share/fonts
+/usr/local/share/fonts
+~/.local/share/fonts
+```
+
+refresh the fonts cache
+```zsh
+sudo fc-cache -f -v
+```
+
 #### UI - SF Pro Display Regular
 
-#### Document - SF Pro Text Regular
+#### Hiragino Sans GB （default for SanSerif font)
+
+#### Noto Serif CJK (default for Serif font)
+
+#### Document - SF Pro Text Regular (optional?)
+
+#### Source Code Pro (default for mono font)
 
 #### Ping Fang (optional)
 https://github.com/paraself/PingFang-Fonts
 
-#### Source Code Pro
-#### MS Yahei Consolas (optional)
+#### MS Yahei Consolas (optional, replaced by Source Code Pro)
 https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12
 
-for terminal
-
-Source Code Pro
-
 #### Noto Sans CJK 配置
+
+Note: On ubuntu english version, the noto fonts are placed JP language first which caused some chinese fonts not displayed correctly. So need to replace with language specific noto fonts.
+http://www.google.cn/get/noto/help/cjk/
 https://www.zhihu.com/question/47141667?from=profile_question_card
 
 ```shell
@@ -89,16 +105,16 @@ sudo vim /etc/fonts/conf.d/60-latin.conf
 
 #### 方正屏显雅宋 (optional)
 
-#### Hiragino Sans GB （make default)
+
 
 #### Monaco font in gnome terminal (optional)
 
 https://github.com/cstrap/monaco-font/issues/4
-
 need to copy font into /usr/share/fonts/truetype/custom
 
-## Icon - WhiteSur
+## Icon & Theme
 
+### Icon - WhiteSur
 ```zsh
 cd /home/yanghui/.local/share/icons/WhiteSur/apps/scalable
 sudo cp /home/yanghui/HDD1/ubuntu/Citrus-icon-theme/src/scalable/apps/baidunetdisk.svg /usr/share/icons/Numix-Circle/48/apps
@@ -107,15 +123,13 @@ appliation icons:
 /usr/share/applications
 ~/.local/share/applications
 ```
-
-##	刷新图标缓存
+####	刷新图标缓存
 
 ```shell
 update-icon-caches /home/yanghui/.local/share/icons/* 
 ```
 
-## theme 
-
+### Theme
 WhiteSur-gtk-theme-master
 
 ## Chinese input method - RIME (no need for ubuntu 20.04)
@@ -159,15 +173,26 @@ mpv config file
 
 ## email
 
-geary (with outlook)
+geary (with outlook account)
+imap:outlook.office365.com  
+smtp:smtp.office365.com startTLS
 
 
 ## VIM
+
 配置VIM
 Vim Configuration Files:
 
 ```shell
+sudo apt install vim
 vi ~/.vim/vimrc
+```
+
+## Gedit
+
+```shell
+sudo apt install gedit-plugins
+wget https://raw.githubusercontent.com/maateen/gedit-material-theme/master/material-theme.xml -O ~/.local/share/gedit/styles/material-theme.xml
 ```
 
 Vim can be configured system wide (globally) via the /etc/vim/vimrc.local file on Ubuntu/Debian based operating systems.
@@ -456,7 +481,9 @@ tar -xzf nutstore_linux_dist_x64.tar.gz -C ~/.nutstore/dist
 
 ## 蓝牙自动连接
 
-``` bluetoothctl connect EC:FA:5C:43:6C:28 ```
+```shell
+bluetoothctl connect EC:FA:5C:43:6C:28 
+```
 
 ## VMware player
 
