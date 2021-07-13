@@ -13,14 +13,6 @@ and add below lines
 UUID=415efeb5-ecae-4c53-90c6-4e5701578b46 /home/yanghui/HDD1   ext4    noatime           0       2
 ```
 
-## stop auto update (optional)
-
-``` shell
-sudo vi /etc/apt/apt.conf.d/10periodic
-sudo vi /etc/apt/apt.conf.d/20auto-upgrades
-sudo vi /etc/apt/apt.conf.d/50unattended-upgrades
-```
-
 ## Typora
 
 install Typora
@@ -47,13 +39,14 @@ user theme
 
 themelib - 
 
-```zsh
+```shell
 ~/.local/share/.themes
 ```
 
+```shell
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
 
 ## tweaks
 ```shell
@@ -85,16 +78,16 @@ sudo fc-cache -f -v
 #### Source Code Pro (default for mono font)
 
 #### Ping Fang (optional)
-https://github.com/paraself/PingFang-Fonts
+[PingFang Fonts](https://github.com/paraself/PingFang-Fonts)
 
 #### MS Yahei Consolas (optional, replaced by Source Code Pro)
-https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12
+[YaHei-Consolas-Hybrid](https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12)
 
 #### Noto Sans CJK 配置
 
 Note: On ubuntu english version, the noto fonts are placed JP language first which caused some chinese fonts not displayed correctly. So need to replace with language specific noto fonts.
-http://www.google.cn/get/noto/help/cjk/
-https://www.zhihu.com/question/47141667?from=profile_question_card
+[Google Noto CJK](http://www.google.cn/get/noto/help/cjk/)
+[Chinese Characters for ubuntu on Zhihu.com](https://www.zhihu.com/question/47141667?from=profile_question_card)
 
 ```shell
 sudo vim /etc/fonts/conf.d/64-language-selector-prefer.conf
@@ -160,10 +153,11 @@ DeaDBeeF
 Steam
 
 ## Video player
-ubuntu 20.04可直接安装celluloid，不需要安装mpv和配置，方便不少。
-https://celluloid-player.github.io
+ubuntu 20.04可直接安装[Celluloid](https://celluloid-player.github.io)，不需要安装mpv和配置，方便不少。
 
-mpv - https://github.com/mpv-player/mpv
+```shell
+sudo apt install Celluloid
+```
 
 mpv config file
 
@@ -205,8 +199,7 @@ startup application -
 /bin/aria2c --conf-path=/home/yanghui/.aria2/aria2.conf -D
 
 ## NFS/samba
-Install samba
-https://blog.csdn.net/Stone_OverLooking/article/details/81508546
+Install [samba](https://blog.csdn.net/Stone_OverLooking/article/details/81508546)
 
 ```shell
 sudo apt-get install samba smbclient
@@ -427,8 +420,8 @@ $ git config --global credential.helper store
 git config --global user.email "stevenyanghui@qq.com"
 git config --global user.name "yanghui"
 
-### generate new ssh key
-https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+### new ssh key
+[generate new ssh key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 ### add ssh key to github.com
 
@@ -454,7 +447,7 @@ sudo cp ~/.config/monitors.xml ~gdm/.config/
 
 /etc/X11/xorg.conf
 
-https://askubuntu.com/questions/1230570/cant-rotate-monitor-on-20-04
+[can't rotate monitor on](https://askubuntu.com/questions/1230570/cant-rotate-monitor-on-20-04)
 
 ## 坚果云无法启动
 
