@@ -90,6 +90,7 @@ Note: On ubuntu english version, the noto fonts are placed JP language first whi
 [Chinese Characters for ubuntu on Zhihu.com](https://www.zhihu.com/question/47141667?from=profile_question_card)
 
 ```shell
+sudo vim /etc/fonts/conf.d/30-cjk-aliases.conf
 sudo vim /etc/fonts/conf.d/64-language-selector-prefer.conf
 sudo vim /etc/fonts/conf.d/60-latin.conf
 ```
