@@ -25,6 +25,13 @@ MAILTO=''
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 SHELL=/bin/zsh
 #========================================
+# M I N S   J O B S
+#========================================
+# cls notifications runs very x mins
+* * * * * python3 $HOME/Documents/quantest/cls_cn/cls_notification_v1.py
+#========================================
+#
+#========================================
 # D A I L Y   J O B S
 #========================================
 # 计算行业相关性集中度历史数据并画图
@@ -64,6 +71,7 @@ SHELL=/bin/zsh
 # RSI plotting
 45 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/RSI_ETF_v1.py
 #========================================
+#
 #========================================
 # W E E K L Y  J O B S
 # note: router will reboot every Monday 3AM

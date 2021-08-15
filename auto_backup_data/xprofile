@@ -1,2 +1,4 @@
 # speed up the mouse by moving every 2 pixels.
-xinput set-prop 8 157 2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 1.000000
+# xinput --list
+# xinput --list-props 12(devide id)
+xinput set-prop 9 157 2.000000, 0.000000, 0.000000, 0.000000, 2.000000, 0.000000, 0.000000, 0.000000, 1.000000
