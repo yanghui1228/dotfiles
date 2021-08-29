@@ -27,8 +27,16 @@ SHELL=/bin/zsh
 #========================================
 # M I N S   J O B S
 #========================================
-# cls notifications runs very x mins
+# cls notifications runs very 1 mins
 * * * * * python3 $HOME/Documents/quantest/cls_cn/cls_notification_v1.py
+# macd notification runs every hour
+#----------------------------------
+30 10 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
+30 11 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
+00 14 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
+00 15 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
+#----------------------------------
+#========================================
 #========================================
 #
 #========================================
@@ -39,7 +47,7 @@ SHELL=/bin/zsh
 # seba -> deprecated, the website is blocked
 # 00 04 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/Other/seba_v2.1.py
 # 东方财富国家队新近股票追踪
-00 08 * * 1,2,3,4,5,6 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_v1.py
+00 08 * * 1,2,3,4,5,6 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_v2.py
 # 东方财富新股发行追踪
 15 08 * * 1,2,3,4,5,6 python3 $HOME/Documents/quantest/eastmoney_com/new_stock_v1.py
 # notification
@@ -53,7 +61,7 @@ SHELL=/bin/zsh
 # gaoqing.la
 00 18 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/Other/gaoqing_la_v3.py
 # 社保股MACD择时策略
-00 19 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v1.py
+#00 19 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v1.py
 # download industry history data from eastmoney.com
 00 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/industry_history_v1.py
 # 东方财富每日行业涨幅排名
