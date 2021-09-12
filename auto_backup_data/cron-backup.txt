@@ -29,6 +29,7 @@ SHELL=/bin/zsh
 #========================================
 # cls notifications runs very 1 mins
 * * * * * python3 $HOME/Documents/quantest/cls_cn/cls_notification_v1.py
+#----------------------------------
 # macd notification runs every hour
 #----------------------------------
 30 10 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
@@ -36,6 +37,11 @@ SHELL=/bin/zsh
 00 14 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
 00 15 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
 #----------------------------------
+# stock announcement notification runs every day @08:30/12:45/21:00
+#----------------------------------
+30 08 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/stock_exchange/stock_announcement_v1.py
+45 12 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/stock_exchange/stock_announcement_v1.py
+00 21 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/stock_exchange/stock_announcement_v1.py
 #========================================
 #========================================
 #
