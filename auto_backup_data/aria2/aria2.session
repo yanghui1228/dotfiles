@@ -1,8 +1,8 @@
-magnet:?xt=urn:btih:029EA7C0C12B47AB8E5DD94F7B8DC0693C29CFFC&dn=MIAA-470&tr=http://ya.97ro.org/
- gid=1dde5595b6bc4808
+magnet:?xt=urn:btih:EFCEA4DCE2978F0887D419A9BB5262345ED0F75F&dn=STARS-146_FHD_CH&tr=http://z1.1080pgqzz.club/pw/index.php
+ gid=344ed12334c0e813
  out=
  parameterized-uri=false
- header=Referer: https://www1.downsx.pw/torrent/029EA7C0C12B47AB8E5DD94F7B8DC0693C29CFFC"
+ header=Referer: https://www.bitsdts.net/torrent/EFCEA4DCE2978F0887D419A9BB5262345ED0F75F"
  header=Cookie:
 magnet:?xt=urn:btih:B4C49C6D19C0E133CF4499209CA9026D6C87925C&dn=MEYD683&tr=http://z1.1080pgqzz.club/pw/index.php
  gid=88408e5975604543
@@ -10,9 +10,15 @@ magnet:?xt=urn:btih:B4C49C6D19C0E133CF4499209CA9026D6C87925C&dn=MEYD683&tr=http:
  parameterized-uri=false
  header=Referer: https://www1.downsx.net/torrent/B4C49C6D19C0E133CF4499209CA9026D6C87925C"
  header=Cookie:
-magnet:?xt=urn:btih:EFCEA4DCE2978F0887D419A9BB5262345ED0F75F&dn=STARS-146_FHD_CH&tr=http://z1.1080pgqzz.club/pw/index.php
- gid=344ed12334c0e813
+magnet:?xt=urn:btih:029EA7C0C12B47AB8E5DD94F7B8DC0693C29CFFC&dn=MIAA-470&tr=http://ya.97ro.org/
+ gid=1dde5595b6bc4808
  out=
  parameterized-uri=false
- header=Referer: https://www.bitsdts.net/torrent/EFCEA4DCE2978F0887D419A9BB5262345ED0F75F"
+ header=Referer: https://www1.downsx.pw/torrent/029EA7C0C12B47AB8E5DD94F7B8DC0693C29CFFC"
+ header=Cookie:
+magnet:?xt=urn:btih:MUF6OYRL7B2K4TL5ZVNEUDCHG2BNGIYD
+ gid=bbb9db9e0d22b2e7
+ out=
+ parameterized-uri=false
+ header=Referer: https://www.dongmanhuayuan.com/detail/86BNr.html"
  header=Cookie:
