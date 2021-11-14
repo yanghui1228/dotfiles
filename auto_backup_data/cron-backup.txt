@@ -74,6 +74,8 @@ SHELL=/bin/zsh
 15 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/industry_turn_around_v1.py
 # 生意社商品价格下载并画图
 20 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/100ppi_com/arbitrage_material_stock_v1.py
+# sina arbitrage stratigy
+23 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/sina_com/sina_arbitrage_material_stock_v1.py
 # BDI 统计套利策略
 25 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/arbitrage_BDI_stock_v1.py
 # A/H股统计套利策略
