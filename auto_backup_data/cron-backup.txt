@@ -32,10 +32,10 @@ SHELL=/bin/zsh
 #----------------------------------
 # macd notification runs every hour
 #----------------------------------
-30 10 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
-30 11 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
-00 14 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
-00 15 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
+#30 10 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
+#30 11 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
+#00 14 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
+#00 15 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v2.py
 #----------------------------------
 # stock announcement notification runs every day @08:30/12:45/21:00
 #----------------------------------
