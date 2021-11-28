@@ -329,12 +329,6 @@ https://github-releases.githubusercontent.com/122734569/d309b013-20dd-4d7e-a132-
  follow-metalink=true
  metalink-preferred-protocol=none
  metalink-enable-unique-protocol=true
-magnet:?xt=urn:btih:5BB0E8BF6AF027E69B4855362ABAB90EC59FA9DD&dn=MVSD-474C.zip&tr=http://ya.97ro.org/
- gid=c483e5053047a4f9
- out=
- parameterized-uri=false
- header=Referer: https://bitsdts.org/torrent/5BB0E8BF6AF027E69B4855362ABAB90EC59FA9DD"
- header=Cookie:
 magnet:?xt=urn:btih:72BE85043D15DE71DA130239F1D64A7E9C42D36F&dn=SSIS-001_CH_SD&tr=
  gid=ee393eb37e451c81
  out=
@@ -347,11 +341,29 @@ magnet:?xt=urn:btih:E94C102A48877A9396237AC6EA57CFEDE9110BE6&dn=MSFH-066C.zip&tr
  parameterized-uri=false
  header=Referer: https://bitsdts.org/torrent/E94C102A48877A9396237AC6EA57CFEDE9110BE6"
  header=Cookie:
+magnet:?xt=urn:btih:5BB0E8BF6AF027E69B4855362ABAB90EC59FA9DD&dn=MVSD-474C.zip&tr=http://ya.97ro.org/
+ gid=c483e5053047a4f9
+ out=
+ parameterized-uri=false
+ header=Referer: https://bitsdts.org/torrent/5BB0E8BF6AF027E69B4855362ABAB90EC59FA9DD"
+ header=Cookie:
+http://b2v9.com/forum.php?mod=attachment&aid=MjIyNTU2MHxlODVkYjgxNnwxNjM3ODkyMTAyfDB8NzkyNDk0
+ gid=ba659e1eea115159
+ out=JUL-776.torrent
+ parameterized-uri=false
+ header=Referer: http://b2v9.com/forum.php?mod=viewthread&tid=792494&extra=page%3D2
+ header=Cookie: SlDj_2132_visitedfid=45D160D93D133D92D46D151D167D156D159; SlDj_2132_forum_lastvisit=D_99_1633872111D_69_1633872121D_138_1633872205D_53_1633873186D_58_1636116730D_166_1636437279D_57_1636437283D_163_1636437286D_165_1636437342D_174_1636437368D_79_1636437391D_60_1636437434D_47_1636437480D_48_1636437649D_49_1636437653D_50_1636437659D_159_1636437670D_167_1636437674D_151_1636976819D_92_1637498321D_133_1637544322D_93_1637891329D_160_1637891331D_45_1637891875; SlDj_2132_sid=pTVyBA; SlDj_2132_lastact=1637892102%09plugin.php%09; SlDj_2132_saltkey=IAquelJC; SlDj_2132_lastvisit=1637806256; SlDj_2132_st_t=0%7C1637891875%7Cdbe571759e63b1b9c556822b9a6605a4; SlDj_2132_st_p=0%7C1637892102%7C9ccf3d465e2852f6f97cea1e9db9fcf1; SlDj_2132_viewid=tid_792494; SlDj_2132_sendmail=1
 magnet:?xt=urn:btih:342F760C54CAE39F94326C39BC787C2A85232F81&dn=ABP989.HD.zip&tr=http://ya.97ro.org/
  gid=a84b395676bcaa00
  out=
  parameterized-uri=false
  header=Referer: https://bitsdts.org/torrent/342F760C54CAE39F94326C39BC787C2A85232F81"
+ header=Cookie:
+magnet:?xt=urn:btih:3D4E70F72175D493128B587A9CF2500CF0A00772&dn=SNIS699c&tr=http://sod99.com/Index
+ gid=545324135179a435
+ out=
+ parameterized-uri=false
+ header=Referer: https://bitsdts.net/torrent/3D4E70F72175D493128B587A9CF2500CF0A00772"
  header=Cookie:
 magnet:?xt=urn:btih:DE981A28BEACE025D04C7AC423F9C04F881A6744&dn=ABP979.HD.zip&tr=http://ya.97ro.org/
  gid=7274437ca6d91c87
@@ -359,51 +371,21 @@ magnet:?xt=urn:btih:DE981A28BEACE025D04C7AC423F9C04F881A6744&dn=ABP979.HD.zip&tr
  parameterized-uri=false
  header=Referer: https://bitsdts.org/torrent/DE981A28BEACE025D04C7AC423F9C04F881A6744"
  header=Cookie:
-magnet:?xt=urn:btih:1BA5EEB368B4A9F403E91BE92BCAF30FF49C5CB2&dn=LXV004C&tr=http://sod99.com/Index%20
- gid=5cd1949cdae23916
- out=
- parameterized-uri=false
- header=Referer: https://bitsdts.net/torrent/1BA5EEB368B4A9F403E91BE92BCAF30FF49C5CB2"
- header=Cookie: 
-magnet:?xt=urn:btih:22DE1B788F3784AD5C5216E1101134859EA1B119&dn=docp081&tr=http://sod99.com/Index
- gid=3b71624a92f01904
- out=
- parameterized-uri=false
- header=Referer: https://bitsdts.org/torrent/22DE1B788F3784AD5C5216E1101134859EA1B119"
- header=Cookie: 
-magnet:?xt=urn:btih:90106F42CF550D7B2BDA91FF58DD5020958D9EF8&dn=MIAA-414_FHD_CH&tr=
- gid=ee6577cc1e0cf2cc
- out=
- parameterized-uri=false
- header=Referer: https://bitsdts.xyz/torrent/90106F42CF550D7B2BDA91FF58DD5020958D9EF8"
- header=Cookie: 
-magnet:?xt=urn:btih:EC4FE8F826024FE8588D74DA41D1CA9DB0830E62&dn=MIDE-898_FHD_CH&tr=
- gid=e7d19b0c0ded4b39
- out=
- parameterized-uri=false
- header=Referer: https://bitsdts.xyz/torrent/EC4FE8F826024FE8588D74DA41D1CA9DB0830E62"
- header=Cookie: 
-magnet:?xt=urn:btih:1C06035DCE2FA635D649FBE7FF9DAA6C3145CC3D&dn=MIMK-087_CH_SD&tr=
- gid=e6fb76c788b87d8d
- out=
- parameterized-uri=false
- header=Referer: https://bitsdts.xyz/torrent/1C06035DCE2FA635D649FBE7FF9DAA6C3145CC3D"
- header=Cookie: 
-magnet:?xt=urn:btih:14C8425864FB318472CFC58A70FD76EF4E85A4A4&dn=UMSO081C&tr=http://sod99.com/Index
- gid=0e0dce4a4f820c3d
- out=
- parameterized-uri=false
- header=Referer: https://bitsdts.net/torrent/14C8425864FB318472CFC58A70FD76EF4E85A4A4"
- header=Cookie: 
-magnet:?xt=urn:btih:3D4E70F72175D493128B587A9CF2500CF0A00772&dn=SNIS699c&tr=http://sod99.com/Index
- gid=545324135179a435
- out=
- parameterized-uri=false
- header=Referer: https://bitsdts.net/torrent/3D4E70F72175D493128B587A9CF2500CF0A00772"
- header=Cookie: 
 magnet:?xt=urn:btih:8F9577EE99EF64563837DACB69B7EA0169DADB9B&dn=FTN038C&tr=http://sod99.com/Index
  gid=dab8a40f11ae2268
  out=
  parameterized-uri=false
  header=Referer: https://bitsdts.net/torrent/8F9577EE99EF64563837DACB69B7EA0169DADB9B"
- header=Cookie: 
+ header=Cookie:
+magnet:?xt=urn:btih:14C8425864FB318472CFC58A70FD76EF4E85A4A4&dn=UMSO081C&tr=http://sod99.com/Index
+ gid=0e0dce4a4f820c3d
+ out=
+ parameterized-uri=false
+ header=Referer: https://bitsdts.net/torrent/14C8425864FB318472CFC58A70FD76EF4E85A4A4"
+ header=Cookie:
+http://b2v9.com/forum.php?mod=attachment&aid=MjIyNjAyN3w3N2NjZmE0NHwxNjM3ODkxODYyfDB8NzkyNjEx
+ gid=7902bccb90eb12d4
+ out=URE-074.torrent
+ parameterized-uri=false
+ header=Referer: http://b2v9.com/forum.php?mod=viewthread&tid=792611&extra=page%3D1
+ header=Cookie: SlDj_2132_visitedfid=45D160D93D133D92D46D151D167D156D159; SlDj_2132_forum_lastvisit=D_99_1633872111D_69_1633872121D_138_1633872205D_53_1633873186D_58_1636116730D_166_1636437279D_57_1636437283D_163_1636437286D_165_1636437342D_174_1636437368D_79_1636437391D_60_1636437434D_47_1636437480D_48_1636437649D_49_1636437653D_50_1636437659D_159_1636437670D_167_1636437674D_151_1636976819D_92_1637498321D_133_1637544322D_93_1637891329D_160_1637891331D_45_1637891524; SlDj_2132_sid=gRMBoF; SlDj_2132_lastact=1637891863%09plugin.php%09; SlDj_2132_saltkey=IAquelJC; SlDj_2132_lastvisit=1637806256; SlDj_2132_st_t=0%7C1637891524%7C88a614ff7182963da801c748d1ffb4f6; SlDj_2132_st_p=0%7C1637891862%7C3d1a580541ec36f46efe5bf9000fecaf; SlDj_2132_viewid=tid_792611; SlDj_2132_sendmail=1

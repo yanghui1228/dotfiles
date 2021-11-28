@@ -68,14 +68,14 @@ SHELL=/bin/zsh
 00 18 * * 0,1,2,3,4,5,6 python3 $HOME/Documents/quantest/Other/gaoqing_la_v3.py
 # 社保股MACD择时策略
 #00 19 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v1.py
+# sina arbitrage stratigy
+00 19 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/sina_com/sina_arbitrage_material_stock_v1.py
 # download industry history data from eastmoney.com
 00 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/industry_history_v1.py
 # 东方财富每日行业涨幅排名
 15 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/industry_turn_around_v1.py
 # 生意社商品价格下载并画图
 20 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/100ppi_com/arbitrage_material_stock_v1.py
-# sina arbitrage stratigy
-23 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/sina_com/sina_arbitrage_material_stock_v1.py
 # BDI 统计套利策略
 25 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/arbitrage_BDI_stock_v1.py
 # A/H股统计套利策略
@@ -86,6 +86,8 @@ SHELL=/bin/zsh
 40 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/zhue_com_cn/arbitrage_zhue_stock_v1.py
 # RSI plotting
 45 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/RSI_ETF_v1.py
+# sina arbitrage stratigy
+15 23 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/sina_com/sina_arbitrage_material_stock_v1.py
 #========================================
 #
 #========================================
