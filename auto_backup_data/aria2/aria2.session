@@ -1,24 +1,18 @@
-magnet:?xt=urn:btih:3860405C223AD03657CA245B37454B62D0B79929&dn=fiv024b&tr=http://sod99.com/Index
- gid=001d2be63f0c1d3f
+magnet:?xt=urn:btih:C8237A7678823C4E1B8BE2636376083AC8B05BAE&dn=avmans.com_CJOD288C&tr=http://avmans.com
+ gid=2722e2ac7fd427a2
  out=
  parameterized-uri=false
- header=Referer: https://bitsdts.org/torrent/3860405C223AD03657CA245B37454B62D0B79929"
+ header=Referer: https://bitsdts.org/torrent/C8237A7678823C4E1B8BE2636376083AC8B05BAE"
  header=Cookie:
-magnet:?xt=urn:btih:F4081399030955B4B91762844CED8B108C3CFF80&dn=fiv024a&tr=http://sod99.com/Index
- gid=664b60f695589d03
+magnet:?xt=urn:btih:845A46A64ED68E974F14B3886D1E243568211712&dn=voss109&tr=http://sod99.com/Index
+ gid=8f5a23b00245ca1b
  out=
  parameterized-uri=false
- header=Referer: https://bitsdts.org/torrent/F4081399030955B4B91762844CED8B108C3CFF80"
+ header=Referer: https://bitsdts.org/torrent/845A46A64ED68E974F14B3886D1E243568211712"
  header=Cookie:
-magnet:?xt=urn:btih:CED84C0CDC29AB864DAA65BFA12534B017AE03BF&dn=avman.app_aarm036&tr=http://pp168.cc
- gid=e1e43ba8118056e2
+magnet:?xt=urn:btih:623068BD7D088C968A8ED559DD2CB16A82128763&dn=avmans.com_CAWD186C&tr=http://avmans.com
+ gid=4d34b8b21c5efb9b
  out=
  parameterized-uri=false
- header=Referer: https://bitsdts.org/torrent/CED84C0CDC29AB864DAA65BFA12534B017AE03BF"
- header=Cookie:
-magnet:?xt=urn:btih:456DD6D26E1940242DC704A4F900CD92C838F6F0&dn=blk378&tr=http://sod99.com/Index
- gid=ff46aae574663d33
- out=
- parameterized-uri=false
- header=Referer: https://bitsdts.org/torrent/456DD6D26E1940242DC704A4F900CD92C838F6F0"
+ header=Referer: https://bitsdts.org/torrent/623068BD7D088C968A8ED559DD2CB16A82128763"
  header=Cookie:
