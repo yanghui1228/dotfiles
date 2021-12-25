@@ -76,6 +76,9 @@ main()
 	cp /var/lib/locales/supported.d/local $HOME/Documents/dotfiles/auto_backup_data/locales/local
 	cp /etc/environment $HOME/Documents/dotfiles/auto_backup_data/locales/environment
 	
+    # geary
+	cp $HOME/.config/geary/* $HOME/Documents/dotfiles/geary -rf
+
 	# change access
 	# chmod -R 777 $HOME/Documents/dotfiles/auto_backup_data
 	
