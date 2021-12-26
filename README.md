@@ -208,6 +208,11 @@ sudo vim /etc/samba/smb.conf
 sudo service smbd restart
 ```
 
+## viewnior
+```shell
+sudo apt install viewnior
+```
+
 ## 固定 IP
 
 192.168.1.100

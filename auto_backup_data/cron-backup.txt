@@ -69,7 +69,7 @@ SHELL=/bin/zsh
 # 社保股MACD择时策略
 #00 19 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/state_capital_macd_v1.py
 # sina arbitrage stratigy
-00 19 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/sina_com/sina_arbitrage_material_stock_v1.py
+15 18 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/sina_com/sina_arbitrage_material_stock_v1.py
 # download industry history data from eastmoney.com
 00 20 * * 1,2,3,4,5 python3 $HOME/Documents/quantest/eastmoney_com/industry_history_v1.py
 # 东方财富每日行业涨幅排名
