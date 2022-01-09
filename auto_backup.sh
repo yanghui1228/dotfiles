@@ -27,6 +27,15 @@ main()
 	# mpv config file
 	cp $HOME/.config/mpv/mpv.conf $HOME/Documents/dotfiles/auto_backup_data/mpv.conf
 	
+	# apt sourcelist
+	cp /etc/apt/source.list $HOME/Documents/dotfiles/auto_backup_data/source.list
+
+	# grub to force fsck during boot:
+	# 1. Find line that read as GRUB_CMDLINE_LINUX_DEFAULT and append the fsck.mode=force
+	# 2. sudo update-grub
+	# 3. reboot
+	cp /etc/default/grub $HOME/Documents/dotfiles/auto_backup_data/grub
+	
 	# vim
 	# cp /home/yanghui/.vim/vimrc /home/yanghui/HDD1/ubuntu/auto_backup_data/vimrc
 	cp $HOME/.vimrc $HOME/Documents/dotfiles/auto_backup_data/vimrc
@@ -42,7 +51,7 @@ main()
 	cp $HOME/.git-credentials $HOME/Documents/dotfiles/auto_backup_data/git-credentials
 
 	# typora themes
-	cp $HOME/.config/Typora/themes/* $HOME/Documents/dotfiles/auto_backup_data/typora_themes -rf
+	# cp $HOME/.config/Typora/themes/* $HOME/Documents/dotfiles/auto_backup_data/typora_themes -rf
 
 	# aria2
 	cp $HOME/.aria2/* $HOME/Documents/dotfiles/auto_backup_data/aria2 -rf
@@ -64,9 +73,9 @@ main()
 	cp $HOME/.config/monitors.xml $HOME/Documents/dotfiles/auto_backup_data/monitors.xml
 
 	# xprofile (mouse speed)
-	cp $HOME/.xprofile $HOME/Documents/dotfiles/auto_backup_data/xprofile
+	# cp $HOME/.xprofile $HOME/Documents/dotfiles/auto_backup_data/xprofile
 	
-	# language render provile
+	# language render profile
 	cp /etc/fonts/conf.d/30-cjk-aliases.conf $HOME/Documents/dotfiles/auto_backup_data/30-cjk-aliases.conf
 	cp /etc/fonts/conf.d/60-latin.conf $HOME/Documents/dotfiles/auto_backup_data/60-latin.conf
 	cp /etc/fonts/conf.d/64-language-selector-prefer.conf $HOME/Documents/dotfiles/auto_backup_data/64-language-selector-prefer.conf
