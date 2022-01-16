@@ -133,7 +133,10 @@ set backspace=indent,eol,start
 "编码设置
 set encoding=utf-8
 "共享剪切板
-set clipboard=unnamedplus
+set clipboard^=unnamed,unnamedplus
+
+" set gvim font
+set guifont=Source\ Code\ Pro\ 10 
 
 " Don't write backup file if vim is being called by "crontab -e"
 au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
