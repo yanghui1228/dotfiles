@@ -501,3 +501,7 @@ Exec=/usr/bin/vmplayer '/home/yanghui/vmware/Windows 10 x64/Windows 10 x64.vmx'
 - restore /etc/environment
 - Reboot/relogin, Now you should have dates displayed like this: 2007-01-18.
 
+## Firefox about:config
+ - mousewheel.system_scroll_override.vertical.factor = 400
+ - gfx.webrender.all = true
+
