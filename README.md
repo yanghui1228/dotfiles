@@ -1,6 +1,14 @@
-# UBUNTU
+---
+title: UBUNTU DOTFILE configuration
+author: Yang Hui
+keywords: word1, word2, word3
+style: github.css
+numbering: false
+---
 
-## FSTAB
+# UBUNTU DOTFILE configuration
+
+## 📔 FSTAB
 
 ```shell
 sudo -e /etc/fstab
@@ -9,21 +17,19 @@ sudo -e /etc/fstab
 and add below lines
 
 ```shell
-#HDD
+# HDD
 UUID=415efeb5-ecae-4c53-90c6-4e5701578b46 /home/yanghui/HDD1   ext4    noatime           0       2
 ```
 
-## Typora
-
-install Typora
-
-## Downloads/Videos/Music Folder soft link
+## 🔗 Downloads/Videos/Music Folder soft link 
 
 ```shell
 ln -s target_file link_name
 ```
 
-## swap
+## 🔁 swap
+
+```shell
 禁用swap
 sudo swapoff /swapfile
 修改swap 空间
@@ -32,28 +38,25 @@ sudo dd if=/dev/zero of=/swapfile bs=1M count=4096
 sudo mkswap /swapfile
 启用swapfile
 sudo swapon /swapfile
+```
 
-## extension
+## 🔯 extension
 
 user theme
 
-themelib - 
-
 ```shell
+# themelib - 
 ~/.local/share/.themes
 ```
 
-```shell
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-```
 
-## tweaks
+
+## 🔧 tweaks
 ```shell
 sudo apt install gnome-tweaks
 ```
 
-## Fonts 
+## 🔠 Fonts
 
 ```zsh
 # fonts libs
@@ -67,23 +70,17 @@ refresh the fonts cache
 sudo fc-cache -f -v
 ```
 
-#### UI - SF Pro Display Regular
+### UI - SF Pro Display Regular
 
-#### Hiragino Sans GB （default for SanSerif font)
+### Hiragino Sans GB （default for SanSerif font)
 
-#### Noto Serif CJK (default for Serif font)
+### Noto Serif CJK (default for Serif font)
 
-#### Document - SF Pro Text Regular (optional?)
-
-#### Source Code Pro (default for mono font)
-
-#### Ping Fang (optional)
+### Document - SF Pro Text Regular (optional?)
+### Source Code Pro (default for mono font)
+### Ping Fang
 [PingFang Fonts](https://github.com/paraself/PingFang-Fonts)
-
-#### MS Yahei Consolas (optional, replaced by Source Code Pro)
-[YaHei-Consolas-Hybrid](https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12)
-
-#### Noto Sans CJK 配置
+### Noto Sans CJK 配置
 
 Note: On ubuntu english version, the noto fonts are placed JP language first which caused some chinese fonts not displayed correctly. So need to replace with language specific noto fonts.
 [Google Noto CJK](http://www.google.cn/get/noto/help/cjk/)
@@ -95,13 +92,13 @@ sudo vim /etc/fonts/conf.d/64-language-selector-prefer.conf
 sudo vim /etc/fonts/conf.d/60-latin.conf
 ```
 
-#### 方正细金陵简体 （optional）
+### 方正细金陵简体 （optional）
 
-#### 方正屏显雅宋 (optional)
+### 方正屏显雅宋 (optional)
 
 
 
-#### Monaco font in gnome terminal (optional)
+### Monaco font in gnome terminal (optional)
 
 https://github.com/cstrap/monaco-font/issues/4
 need to copy font into /usr/share/fonts/truetype/custom
@@ -146,44 +143,41 @@ ascii_composer:
 sudo sh ./VMware-Horizon-Client-5.2.0-14604769.x64.bundle
 ```
 
-## music player
+## 🎵 music player
 DeaDBeeF
 
-## Linux gaming
+## 🎮 Linux gaming
 
 Steam
 
-## Video player
+## 🎬 Video player
 ubuntu 20.04可直接安装[Celluloid](https://celluloid-player.github.io)，不需要安装mpv和配置，方便不少。
 
 ```shell
 sudo apt install Celluloid
 ```
 
-mpv config file
-
 ```shell
+# mpv config file
 ~/.config/mpv/mpv.conf
 ```
 
-## email
+## 📬 email
 
 geary (with outlook account)
-imap:outlook.office365.com  
+imap:outlook.office365.com
 smtp:smtp.office365.com startTLS
 
 
-## VIM
-
-配置VIM
-Vim Configuration Files:
+## 📃 VIM
 
 ```shell
+# Vim Configuration Files
 sudo apt install vim
 vi ~/.vim/vimrc
 ```
 
-## Gedit
+## 📜 Gedit
 
 ```shell
 sudo apt install gedit-plugins
@@ -192,14 +186,14 @@ wget https://raw.githubusercontent.com/maateen/gedit-material-theme/master/mater
 
 Vim can be configured system wide (globally) via the /etc/vim/vimrc.local file on Ubuntu/Debian based operating systems.
 
-## Download manager
+## 📥 Download manager
 install and config aria2
 
 startup application - 
 
 /bin/aria2c --conf-path=/home/yanghui/.aria2/aria2.conf -D
 
-## NFS/samba
+## 🔃 NFS/samba
 Install [samba](https://blog.csdn.net/Stone_OverLooking/article/details/81508546)
 
 ```shell
@@ -208,16 +202,17 @@ sudo vim /etc/samba/smb.conf
 sudo service smbd restart
 ```
 
-## viewnior
+## 🖼 viewnior
 ```shell
+sudo apt purge eog
 sudo apt install viewnior
 ```
 
-## 固定 IP
+## 🔳 固定 IP
 
 192.168.1.100
 
-## Virtual machine
+## 🖥 Virtual machine
 
 vmware player 16
 
@@ -229,15 +224,32 @@ cd 'C:\Program Files\VMware\VMware Tools'
 ```
 
 
-## Cocos creator (optional)
+## 🎮 Cocos creator (optional)
 Run on vmware on windows 10
 
-## WPS office 2019
+## 🗃 WPS office 2019
 
-## zsh
-https://segmentfault.com/a/1190000018093021
+## 🔳 zsh
+```shell
+# install oh my zsh
+sudo apt install zsh
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+# set zsh as default
+sudo -s
+chsh -s /bin/zsh root
+chsh -s /bin/zsh username
+# recover ~/.zshrc from backup
+```
 
-## Python
+[安装oh my zsh插件](https://segmentfault.com/a/1190000018093021)
+
+```shell
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+## 🐍 Python
 ### pip3 国内源
 ```shell
 mkdir ~/.pip
@@ -253,12 +265,14 @@ index-url = https://mirrors.aliyun.com/pypi/simple
 
 ### TA-lib install
 
-https://mrjbq7.github.io/ta-lib/install.html
+[TA-lib instruction](https://mrjbq7.github.io/ta-lib/install.html)
 
 ### pip packages to install
+```shell
+sudo apt install python3-pip
 
-pip3 install TA-Lib html5lib future baostock matplotlib pandas lxml bs4 aiohttp statsmodels jinja2
-
+pip install TA-Lib html5lib future baostock pandas matplotlib pandas lxml bs4 aiohttp statsmodels jinja2 colorlog
+```
 
 ### crontab (no sudo)
 
@@ -291,7 +305,7 @@ sudo apt install postfix
 sudo tail /var/mail/username
 ```
 
-## Check and Kill process
+## 🔳 Check and Kill process
 
 ```shell
 ps aux
@@ -305,10 +319,10 @@ ps axo stat,ppid,pid,comm | grep -w defunct
 sudo kill -9 {PID}
 ```
 
-## epub reader
+## 📰 epub reader
 Foliate
 
-## ubuntu 更换国内源 (optional)
+## 🔳 ubuntu 更换国内源 (optional)
 
 #备份
 
@@ -332,7 +346,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted univer
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
 ```
 
-## amule (optional)
+## 🐴 amule (optional)
 
 https://www.wendangwang.com/doc/44244f4230c7557b781be223
 
@@ -362,7 +376,7 @@ manage the downloads -
 amulecmd
 ```
 
-## Gnome file roller 乱码
+## 🔳 Gnome file roller 乱码
 
 在/etc/environment中加入以下两行：
 
@@ -371,28 +385,17 @@ UNZIP="-O CP936"
 ZIPINFO="-O CP936"
 ```
 
-Remove p7zip (not required on ubuntu 20.04)
-
 ```zsh
 sudo apt-get remove p7zip-full p7zip
 ```
 
-## Disable ubuntu update manager (optional)
-
-```zsh
-sudo systemctl disable apt-daily.service apt-daily-upgrade.service
-sudo systemctl disable apt-daily.timer apt-daily-upgrade.timer
-```
-
-
-
-## Disable recent files (optional)
+## 🔳 Disable recent files (optional)
 
 ```zsh
 sudo chattr +i ~/.local/share/recently-used.xbel
 ```
 
-## Remove snap
+## 🔳 Remove snap
 
 ```zsh
 snap list
@@ -409,13 +412,11 @@ sudo rm -rf /var/lib/snapd
 
 
 
-## RAR 解压
+## 🗜 RAR 解压
 
 ```zsh
 sudo apt install unrar
 ```
-
-
 
 ## git save credential
 
@@ -455,20 +456,6 @@ sudo cp ~/.config/monitors.xml ~gdm/.config/
 
 [can't rotate monitor on](https://askubuntu.com/questions/1230570/cant-rotate-monitor-on-20-04)
 
-## 坚果云无法启动
-
-```shell
-$ grep Exec /usr/share/applications/nutstore-menu.desktop             
-Exec=sh -c "nohup ~/.nutstore/dist/bin/nutstore-pydaemon.py >/dev/null 2>&1 &"
-
-~/.nutstore/dist 目录不存在, 则
-
-mkdir -p .nutstore/dist
-tar -xzf nutstore_linux_dist_x64.tar.gz -C ~/.nutstore/dist
-```
-
-
-
 ## 截屏
 
 - `PrtSc` – 获取整个屏幕的截图并保存到 Pictures 目录。
@@ -504,4 +491,8 @@ Exec=/usr/bin/vmplayer '/home/yanghui/vmware/Windows 10 x64/Windows 10 x64.vmx'
 ## Firefox about:config
  - mousewheel.system_scroll_override.vertical.factor = 400
  - gfx.webrender.all = true
+
+## markdown editor
+[Marker Website](https://fabiocolacio.github.io/Marker/#:~:text=Marker%20is%20a%20simple%20yet%20robust%20markdown%20editor,customized%20to%20meet%20the%20needs%20of%20any%20workflow%21)
+style_sheet is in `/usr/share/com.github.fabiocolacio.marker/styles` 
 

@@ -6,9 +6,9 @@
 #
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
 # / was on /dev/nvme0n1p5 during installation
-UUID=f93ee711-15c8-42b0-b84e-740ae3706a4e /               	ext4    errors=remount-ro,noatime	 0       1
+UUID=ebeb1488-1e1b-4d0a-8e24-9f54f47cb2e6 /               ext4    errors=remount-ro 0       1
 # /boot/efi was on /dev/nvme0n1p1 during installation
-UUID=045D-058A  /boot/efi       			  	vfat    umask=0077      		 0       1
-/swapfile    none            				  	swap    sw              		 0       0
-#HDD
-UUID=415efeb5-ecae-4c53-90c6-4e5701578b46 /home/yanghui/HDD1   	ext4    noatime           		 0       0
+UUID=CD52-A537  /boot/efi       vfat    umask=0077      0       1
+/swapfile                                 none            swap    sw              0       0
+# HDD
+UUID=415efeb5-ecae-4c53-90c6-4e5701578b46 /home/yanghui/HDD1   ext4    noatime           0       2

@@ -28,17 +28,15 @@ main()
 	cp $HOME/.config/mpv/mpv.conf $HOME/Documents/dotfiles/auto_backup_data/mpv.conf
 	
 	# apt sourcelist
-	cp /etc/apt/source.list $HOME/Documents/dotfiles/auto_backup_data/source.list
+	# cp /etc/apt/source.list $HOME/Documents/dotfiles/auto_backup_data/source.list
 
 	# grub to force fsck during boot:
 	# 1. Find line that read as GRUB_CMDLINE_LINUX_DEFAULT and append the fsck.mode=force
 	# 2. sudo update-grub
 	# 3. reboot
-	cp /etc/default/grub $HOME/Documents/dotfiles/auto_backup_data/grub
+	# cp /etc/default/grub $HOME/Documents/dotfiles/auto_backup_data/grub
 	
 	# vim
-	# cp /home/yanghui/.vim/vimrc /home/yanghui/HDD1/ubuntu/auto_backup_data/vimrc
-	cp $HOME/.vimrc $HOME/Documents/dotfiles/auto_backup_data/vimrc
 	cp $HOME/.vim/* $HOME/Documents/dotfiles/auto_backup_data/vim -rf
 	
 	# samba config
@@ -48,10 +46,13 @@ main()
 	cp /etc/fstab $HOME/Documents/dotfiles/auto_backup_data/fstab
 
 	# .git-credentials
-	cp $HOME/.git-credentials $HOME/Documents/dotfiles/auto_backup_data/git-credentials
+	# cp $HOME/.git-credentials $HOME/Documents/dotfiles/auto_backup_data/git-credentials
 
 	# typora themes
 	# cp $HOME/.config/Typora/themes/* $HOME/Documents/dotfiles/auto_backup_data/typora_themes -rf
+
+	# Marker styles
+	cp /usr/share/com.github.fabiocolacio.marker/styles/* $HOME/Documents/dotfiles/auto_backup_data/marker_styles -rf
 
 	# aria2
 	cp $HOME/.aria2/* $HOME/Documents/dotfiles/auto_backup_data/aria2 -rf
@@ -60,7 +61,7 @@ main()
 	cp $HOME/.zshrc $HOME/Documents/dotfiles/auto_backup_data/zshrc
 
 	# crontab
-	crontab -l > $HOME/Documents/dotfiles/auto_backup_data/cron-backup.txt
+	# crontab -l > $HOME/Documents/dotfiles/auto_backup_data/cron-backup.txt
 
 	# pip
 	cp $HOME/.pip/pip.conf $HOME/Documents/dotfiles/auto_backup_data/pip.conf
@@ -69,8 +70,8 @@ main()
 	cp /etc/hosts $HOME/Documents/dotfiles/auto_backup_data/hosts
 	
 	# nvidia display
-	cp /etc/X11/xorg.conf $HOME/Documents/dotfiles/auto_backup_data/xorg.conf
-	cp $HOME/.config/monitors.xml $HOME/Documents/dotfiles/auto_backup_data/monitors.xml
+	# cp /etc/X11/xorg.conf $HOME/Documents/dotfiles/auto_backup_data/xorg.conf
+	# cp $HOME/.config/monitors.xml $HOME/Documents/dotfiles/auto_backup_data/monitors.xml
 
 	# xprofile (mouse speed)
 	# cp $HOME/.xprofile $HOME/Documents/dotfiles/auto_backup_data/xprofile
@@ -81,12 +82,12 @@ main()
 	cp /etc/fonts/conf.d/64-language-selector-prefer.conf $HOME/Documents/dotfiles/auto_backup_data/64-language-selector-prefer.conf
 	
 	# locale
-	cp /usr/share/i18n/locales/en_CN $HOME/Documents/dotfiles/auto_backup_data/locales/en_CN
-	cp /var/lib/locales/supported.d/local $HOME/Documents/dotfiles/auto_backup_data/locales/local
-	cp /etc/environment $HOME/Documents/dotfiles/auto_backup_data/locales/environment
+	# cp /usr/share/i18n/locales/en_CN $HOME/Documents/dotfiles/auto_backup_data/locales/en_CN
+	# cp /var/lib/locales/supported.d/local $HOME/Documents/dotfiles/auto_backup_data/locales/local
+	# cp /etc/environment $HOME/Documents/dotfiles/auto_backup_data/locales/environment
 	
     # geary
-	cp $HOME/.config/geary/* $HOME/Documents/dotfiles/geary -rf
+	cp $HOME/.config/geary/* $HOME/Documents/dotfiles/auto_backup_data/geary -rf
 
 	# change access
 	# chmod -R 777 $HOME/Documents/dotfiles/auto_backup_data

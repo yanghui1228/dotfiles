@@ -1,0 +1,63 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+  figure {page-break-inside: avoid;}
+  .abstract{page-break-inside: avoid;}
+}
+
+
+@media screen {
+  figure {page-break-inside: avoid;}
+  .abstract{page-break-inside: avoid;}
+}
+
+
+body
+{
+  font-size: 10pt;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 210mm;
+  background: #eee;
+  font-family: "Helvetica Neue", "Hiragino San GB", "Times New Roman", "Nimbus Roman", Palatino, serif;
+}
+pre,code
+{
+font:10pt "Source Code Pro", Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+a {
+  color: #000;
+}
+
+.document{
+  background: #fff;
+  padding: 10mm;
+  min-height: 100%
+}
+
+.header{
+  margin-bottom: 20pt;
+}
+
+.title{
+  text-align:center;
+  text-transform: uppercase;
+  margin-bottom: 2.5mm;
+  margin-top: 0;
+}
+
+.authors{
+  text-align:center;
+  margin-bottom: 0em;
+  font-size: 10pt;
+}
+
+.affiliation{
+"scidown_report_alt.css" 206L, 2790C                              1,1           Top
+
