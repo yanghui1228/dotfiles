@@ -43,7 +43,7 @@ main()
 	cp /etc/fstab $HOME/Documents/dotfiles/auto_backup_data/fstab
 
 	# .git-credentials
-	# cp $HOME/.git-credentials $HOME/Documents/dotfiles/auto_backup_data/git-credentials
+	cp $HOME/.gitconfig $HOME/Documents/dotfiles/auto_backup_data/.gitconfig
 
 	# typora themes
 	# cp $HOME/.config/Typora/themes/* $HOME/Documents/dotfiles/auto_backup_data/typora_themes -rf
