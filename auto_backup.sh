@@ -21,9 +21,6 @@ update_tracker ()
 
 main()
 {
-	# backup sublime text 3 config files
-	#cp $HOME/.config/sublime-text-3/Packages/User $HOME/Documents/dotfiles/auto_backup_data/sublime -rf
-
 	# mpv config file
 	cp $HOME/.config/mpv/mpv.conf $HOME/Documents/dotfiles/auto_backup_data/mpv.conf
 	
@@ -86,7 +83,7 @@ main()
 	# cp /var/lib/locales/supported.d/local $HOME/Documents/dotfiles/auto_backup_data/locales/local
 	# cp /etc/environment $HOME/Documents/dotfiles/auto_backup_data/locales/environment
 	
-    # geary
+        # geary
 	cp $HOME/.config/geary/* $HOME/Documents/dotfiles/auto_backup_data/geary -rf
 
 	# change access
