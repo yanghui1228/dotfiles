@@ -1,6 +1,5 @@
 ---
 title: UBUNTU DOTFILE configuration
-author: Yang Hui
 style: github.css
 numbering: false
 ---
@@ -120,9 +119,6 @@ sudo sh ./VMware-Horizon-Client-5.2.0-14604769.x64.bundle
 ## 🎵 music player
 
 - install DeaDBeeF  
-- sudo apt-get install autotools-dev
-- sudo apt install automake
-- sudo apt-get install libtool
 - install [ddb_misc_headerbar_GTK3](https://github.com/saivert/ddb_misc_headerbar_GTK3)
 - copy the file to `/opt/deadbeef/lib/deadbeef`
 
@@ -253,6 +249,11 @@ style_sheet is in `/usr/share/com.github.fabiocolacio.marker/styles`
     1. download the latest [mermaid.min.js](https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js)
     2. replace the local version in `/usr/share/com.github.fabiocolacio.marker/scripts/mermaid/mermaid.min.js`
 
+
+```sh
+/usr/share/gtksourceview-3.0/language-specs
+```
+
 <s>
 - Upgrade highlight.js  
 	1. download the latest from [highlight.js](https://github.com/highlightjs/cdn-release)  
@@ -330,6 +331,13 @@ sudo fc-cache -f -v
 - Hiragino Sans GB （default for SanSerif font)
 
 - Noto Serif CJK (default for Serif font)
+
+```sh
+sudo cp ~/HDD1/Linux/Fonts/NotoSansCJKsc-hinted/NotoSansCJK-* to /usr/share/fonts/opentype/noto
+sudo chmod 644 NotoSansCJK-*
+sudo fc-cache -fv
+```
+
 
 - Document - SF Pro Text Regular (default for document)
 
@@ -575,3 +583,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet fsck.mode=force"
 ```sh
 ~/.steam/debian-installation/ubuntu12_64/steam-runtime-heavy/run.sh '/home/yanghui/.steam/debian-installation/steamapps/common/dota 2 beta/game/dota.sh' 
 ```
+
+## Nautilus Performance Finetuning
+
+set 'Thumbnails' and 'File Count' to Never in preference.
