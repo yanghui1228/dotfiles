@@ -16,8 +16,14 @@
 	table, pre {
 		page-break-inside: avoid;
 	}
+	
 	pre {
-		word-wrap: break-word;
+  	overflow-x: auto;
+  	white-space: pre-wrap;
+  	white-space: -moz-pre-wrap !important;
+  	white-space: -pre-wrap;
+  	white-space: -o-pre-wrap;
+  	word-wrap: break-word;
 	}
 }
 
@@ -136,6 +142,12 @@ html, body {
   padding: 1em;
 }
 
+p {
+
+  font-family: inherit;
+  font-size: inherit;
+}
+*
 /* the title line is actually transferred to h1 in HTML*/
 h1:after {
     content: '';
@@ -146,25 +158,30 @@ h1:after {
     border-bottom: 4px solid #db4d52;
 }
 
-h2, h3, h4, h5, h6  {
+h2, h3, h4, h5  {
   font-family: 'Adelle', 'Hiragino Sans GB', 'Times New Roman', 'serif';
   position: relative;
   margin-top: 1rem;
   margin-bottom: 1rem;
   line-height:1.4em;
 }
+
 h2{
 	font-size:170%;
 	padding-bottom: .2em;
 }
 
+/*
+
 h2:after {
     content: '';
     display: block;
-    margin: 0.2em auto 0;
+    margin: 0.2em 0;
     height: 2px;
-    border-bottom: 4px solid #db4d52;
+    border-bottom: 4px solid var(--main-1);
+    width: 400px;
 }
+*/
 
 h3{
 	font-size:150%;
@@ -175,7 +192,7 @@ h4{
 	margin-top:1em;
 }
 
-h5, h6{
+h5 {
 	font-size:110%;
 }
 
@@ -213,14 +230,21 @@ hr {
 
 
 a {
-  padding: 0 2px;
-  color:var(--main-1);
+  font-size: inherit;
+  color:inherit;
   text-decoration:underline;
   text-decoration-color: var(--main-1);
 }
 
 s, del {
   color: var(--mid-4) !important;
+  a {
+    padding: 0 2px;
+    /*color:var(--mid-2);*/
+    color:inherit;
+    text-decoration:underline;
+    text-decoration-color: var(--mid-4);
+    }
 }
 
 mark {
@@ -235,6 +259,12 @@ blockquote {
   font-family: 'Adelle', 'Hiragino Sans GB', 'Times New Roman', serif;
   background-color: var(--main-2);
   color: var(--main-3);
+  a {
+    color:inherit;
+    text-decoration:underline;
+    text-decoration-color: var(--main-2) !important;
+    }
+
 }
 
 blockquote::before {
@@ -246,29 +276,28 @@ blockquote::before {
   background: var(--main-1);
 }
 
-code {
-  font-family: 'Source Code Pro', 'Hiragino Sans GB', monospace;
-  font-size: 10pt;
-  border: 1px solid #0000001a; 
-  border-radius: .25rem; 
-  padding: 1px .25rem;
-  /*background: #fafafa;*/
-  background: #fff;
-  line-height: 1.2em;
-}
-
 pre {
   font-family: 'Source Code Pro', 'Hiragino Sans GB', monospace;
   font-size: 10pt;
   /* border: 1px solid #0000001a; */
   /*border-radius: .25rem;*/
   padding: 1px .25rem;
+  background: var(--mid-1);
   /*background: #fafafa;*/
   /*background: #fff;*/
   line-height: 1.2em;
 }
 
-
+code {
+  font-family: 'Source Code Pro', 'Hiragino Sans GB', monospace;
+  font-size: 10pt;
+  border: 1px solid #0000001a; 
+  border-radius: .25rem; 
+  padding: 1px .25rem;
+  background: inherit;
+  /*background: var(--mid-1);*/
+  line-height: 1.2em;
+}
 
 kbd {
 	margin: 0px 0.1em;
@@ -317,11 +346,12 @@ figure figcaption {
   margin: 20px 0;
   list-style: none;
   font-size: 8pt;
-}
-
-.footnotes li{
-  margin-bottom: 1px;
-  margin-left: 16px;
-  line-height: 1;
+/*  line-height: 1em;
+  li{
+    margin-bottom: 1px;
+    margin-left: 16px;
+    line-height: inherit;
+    font-size: inherit;
+  }*/
 }
 
