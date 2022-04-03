@@ -78,6 +78,22 @@ sudo swapon /swapfile
 ```
 # 🔯 Software installation
 
+## Microsoft Edge
+
+```
+# Download & install the GPG Key
+wget -O - https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | sudo tee /usr/share/keyrings/microsoft.gpg
+
+# Remove old repository if any
+sudo rm /etc/apt/sources.list.d/microsoft-edge*.list
+
+# Add the stable repository
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/edge stable main" > /etc/apt/sources.list.d/microsoft-edge.list'
+
+# refresh cache and install
+sudo apt update
+sudo apt install microsoft-edge-stable
+```
 
 ## 🗜 Gnome file roller 乱码问题
 
