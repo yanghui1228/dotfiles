@@ -82,13 +82,10 @@ sudo swapon /swapfile
 
 ```
 # Download & install the GPG Key
-wget -O - https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | sudo tee /usr/share/keyrings/microsoft.gpg
-
-# Remove old repository if any
-sudo rm /etc/apt/sources.list.d/microsoft-edge*.list
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 
 # Add the stable repository
-sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/edge stable main" > /etc/apt/sources.list.d/microsoft-edge.list'
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main"
 
 # refresh cache and install
 sudo apt update
