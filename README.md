@@ -61,7 +61,13 @@ UUID=415efeb5-ecae-4c53-90c6-4e5701578b46 /home/yanghui/HDD1   ext4    noatime  
 # 🔗 Downloads/Videos/Music Folder soft link 
 
 ```shell
-ln -s target_file link_name
+cd ~
+rmdir Downloads
+ln -s /home/yanghui/HDD1/Downloads Downloads
+rmdir Videos
+ln -s /home/yanghui/HDD1/Videos Videos
+rmdir Music
+ln -s /home/yanghui/HDD1/Music Music
 ```
 
 # 🔁 swap
@@ -231,6 +237,7 @@ Exec=/usr/bin/vmplayer '/home/yanghui/vmware/Windows 10 x64/Windows 10 x64.vmx'
 ```sh
 # install oh my zsh
 sudo apt install zsh
+git clone https://github.com/robbyrussell/oh-my-zsh ~/.oh-my-zsh
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
@@ -253,6 +260,12 @@ Foliate
 
 
 ## 🅫 markdown editor
+- Install
+```sh
+sudo add-apt-repository ppa:apandada1/marker
+sudo apt update
+sudo apt install marker
+```
 
 - [Marker](https://fabiocolacio.github.io/Marker/#:~:text=Marker%20is%20a%20simple%20yet%20robust%20markdown%20editor,customized%20to%20meet%20the%20needs%20of%20any%20workflow%21)
 style_sheet is in `/usr/share/com.github.fabiocolacio.marker/styles` 
