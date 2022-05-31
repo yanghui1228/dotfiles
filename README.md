@@ -444,7 +444,9 @@ index-url = https://mirrors.aliyun.com/pypi/simple
 ## pip packages to install
 ```sh
 sudo apt install python3-pip
-pip install TA-Lib html5lib future baostock pandas matplotlib pandas lxml bs4 aiohttp statsmodels jinja2 colorlog
+pip3 install TA-Lib html5lib future baostock pandas matplotlib pandas lxml bs4 aiohttp statsmodels jinja2 colorlog
+# setup mailmerge utils
+sudo pip3 install mailmerge
 ```
 
 ## git
