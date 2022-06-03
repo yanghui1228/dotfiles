@@ -1,3 +1,5 @@
 [user]
 	email = stevenyanghui@qq.com
 	name = yanghui1228
+[credential]
+	helper = store

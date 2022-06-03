@@ -5,10 +5,10 @@
 # that works even if disks are added and removed. See fstab(5).
 #
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
-# / was on /dev/nvme0n1p5 during installation
-UUID=ebeb1488-1e1b-4d0a-8e24-9f54f47cb2e6 /               ext4    noatime,errors=remount-ro 0       1
+# / was on /dev/nvme0n1p2 during installation
+UUID=de247b0d-3498-4d6d-98be-b2e9b3aee0d5 /               ext4    errors=remount-ro 0       1
 # /boot/efi was on /dev/nvme0n1p1 during installation
-UUID=CD52-A537  /boot/efi       vfat    umask=0077      0       1
+UUID=A4A1-ECAF  /boot/efi       vfat    umask=0077      0       1
 /swapfile                                 none            swap    sw              0       0
 # HDD
-UUID=415efeb5-ecae-4c53-90c6-4e5701578b46 /home/yanghui/HDD1   ext4    noatime           0      0 
+UUID=415efeb5-ecae-4c53-90c6-4e5701578b46 /home/yanghui/HDD1   ext4    noatime           0       0
