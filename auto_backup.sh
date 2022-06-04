@@ -83,7 +83,7 @@ main()
 	# cp /var/lib/locales/supported.d/local $HOME/Documents/dotfiles/auto_backup_data/locales/local
 	# cp /etc/environment $HOME/Documents/dotfiles/auto_backup_data/locales/environment
 	
-        # geary
+    # geary
 	cp $HOME/.config/geary/* $HOME/Documents/dotfiles/auto_backup_data/geary -rf
 
 	# change access
@@ -91,7 +91,10 @@ main()
 	
 	# update tracker
     update_tracker
-    
+	
+	# backup Documents Projects to HDD1
+	cp $HOME/Documents/* /home/yanghui/HDD1/Documents -rf
+   
     # git push
     cd $HOME/Documents/dotfiles
     git add *
